@@ -1,4 +1,4 @@
-export const scraperObject = {
+export const leaderBoardScrapper = {
   url: 'https://circuitotormenta.com/competition/tournament/liga-nexo-202223-split-2-1/stage1',
   async scraper (browser) {
     const TEAM = {
