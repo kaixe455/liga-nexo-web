@@ -1,45 +1,45 @@
 [
   {
     "rank": "1",
-    "name": "Magna",
-    "played_matches": "1",
-    "results": "1 - 0 - 0",
-    "points": "3"
-  },
-  {
-    "rank": "2",
-    "name": "Bis Unlock",
-    "played_matches": "1",
-    "results": "1 - 0 - 0",
-    "points": "3"
-  },
-  {
-    "rank": "3",
-    "name": "Stormbringers",
-    "played_matches": "1",
-    "results": "1 - 0 - 0",
-    "points": "3"
-  },
-  {
-    "rank": "4",
-    "name": "Oxygen Valiants",
-    "played_matches": "1",
-    "results": "1 - 0 - 0",
-    "points": "3"
-  },
-  {
-    "rank": "5",
     "name": "Kawaii Kiwis",
     "played_matches": "1",
     "results": "1 - 0 - 0",
     "points": "3"
   },
   {
-    "rank": "6",
+    "rank": "2",
     "name": "TAURUS ESPORTS LOL",
+    "played_matches": "2",
+    "results": "1 - 0 - 1",
+    "points": "3"
+  },
+  {
+    "rank": "3",
+    "name": "Magna",
     "played_matches": "1",
-    "results": "0 - 0 - 1",
-    "points": "0"
+    "results": "1 - 0 - 0",
+    "points": "3"
+  },
+  {
+    "rank": "4",
+    "name": "Stormbringers",
+    "played_matches": "1",
+    "results": "1 - 0 - 0",
+    "points": "3"
+  },
+  {
+    "rank": "5",
+    "name": "Oxygen Valiants",
+    "played_matches": "1",
+    "results": "1 - 0 - 0",
+    "points": "3"
+  },
+  {
+    "rank": "6",
+    "name": "Bis Unlock",
+    "played_matches": "2",
+    "results": "1 - 0 - 1",
+    "points": "3"
   },
   {
     "rank": "7",
