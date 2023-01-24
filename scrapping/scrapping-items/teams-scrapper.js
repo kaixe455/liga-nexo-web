@@ -9,18 +9,17 @@ export const teamsScrapper = {
       return Array.from(teams, team => {
         const TEAM = {
           name: '',
-          slug: '',
+          id: '',
           color1: '',
           color2: '',
           logo: ''
         }
         TEAM.name = team.querySelector('h1').innerText
-        TEAM.slug = team.querySelector('a').getAttribute('href').trim().split('/')[2]
-        TEAM.logo = TEAM.slug + '.svg'
+        TEAM.id = team.querySelector('a').getAttribute('href').trim().split('/')[2]
+        TEAM.logo = TEAM.id + '.svg'
         return TEAM
       })
     })
-    console.log(teamsPanel)
     return teamsPanel
   }
 }
