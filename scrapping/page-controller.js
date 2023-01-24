@@ -10,6 +10,7 @@ export async function scrapeAll (browserInstance) {
     browser = await browserInstance
     const leaderBoard = await leaderBoardScrapper.scraper(browser)
     const matches = await matchesScrapper.scraper(browser)
+    // use teams scrapper only for first time
     const teams = await teamsScrapper.scraper(browser)
     browser.close()
     const filePath = path.join(process.cwd(), './bbdd/')
