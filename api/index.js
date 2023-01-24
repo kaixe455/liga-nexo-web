@@ -2,6 +2,7 @@ import { Hono } from 'hono'
 import leaderboard from '../bbdd/leaderboard.json'
 import matches from '../bbdd/matches.json'
 import teams from '../bbdd/teams.json'
+import { serveStatic } from 'hono/serve-static.module'
 
 const app = new Hono()
 
@@ -33,5 +34,7 @@ app.get('/matches', (ctx) => {
 app.get('/teams', (ctx) => {
   return ctx.json(teams)
 })
+
+app.get('/static/*', serveStatic({ root: './' }))
 
 export default app
