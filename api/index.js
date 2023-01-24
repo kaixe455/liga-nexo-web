@@ -1,6 +1,7 @@
 import { Hono } from 'hono'
 import leaderboard from '../bbdd/leaderboard.json'
 import matches from '../bbdd/matches.json'
+import teams from '../bbdd/teams.json'
 
 const app = new Hono()
 
@@ -13,6 +14,10 @@ app.get('/', (ctx) => {
     {
       endpoint: '/matches',
       description: 'Return all matches for the current split in Liga Nexo'
+    },
+    {
+      endpoint: '/teams',
+      description: 'Return all teams playing Liga Nexo'
     }
   ])
 })
@@ -23,6 +28,10 @@ app.get('/leaderboard', (ctx) => {
 
 app.get('/matches', (ctx) => {
   return ctx.json(matches)
+})
+
+app.get('/teams', (ctx) => {
+  return ctx.json(teams)
 })
 
 export default app
