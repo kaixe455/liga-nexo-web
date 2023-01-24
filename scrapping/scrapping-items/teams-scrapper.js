@@ -20,7 +20,6 @@ export const teamsScrapper = {
         return TEAM
       })
     })
-    console.log(teamsPanel)
     return teamsPanel
   }
 }
