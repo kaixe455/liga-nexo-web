@@ -32,7 +32,6 @@ export const leaderBoardScrapper = {
         ...leaderboardForTeam
       })
     })
-    console.log(leaderboardActual)
     return leaderboardActual
   }
 }
