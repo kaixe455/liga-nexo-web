@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "hono": "2.7.4",
-    "puppeteer": "19.5.2"
+    "puppeteer": "19.5.2",
+    "shieldbow": "1.6.0"
   }
 }
