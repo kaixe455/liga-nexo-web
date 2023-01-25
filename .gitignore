@@ -4,7 +4,8 @@ package-lock.json
 /coverage
 # Ignore build folder of Astro
 /dist
-
+#Ignore riot data
+/data
 # Webstorm folder
 /.idea
 
