@@ -7,7 +7,10 @@
   "scripts": {
     "dev:api": "wrangler dev api/index.js",
     "publish:api": "wrangler publish api/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape:leaderboard": "node ./scrapping/index.js leaderboard",
+    "scrape:matches": "node ./scrapping/index.js matches",
+    "scrape:teams": "node ./scrapping/index.js teams"
   },
   "keywords": [],
   "author": "",
