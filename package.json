@@ -10,13 +10,37 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "scrape:leaderboard": "node ./scrapping/index.js leaderboard",
     "scrape:matches": "node ./scrapping/index.js matches",
-    "scrape:teams": "node ./scrapping/index.js teams"
+    "scrape:teams": "node ./scrapping/index.js teams",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "test:ui": "vitest --ui",
+    "test:cov": "vitest run --coverage",
+    "lint": "eslint . --ext .js,.astro,.ts,.tsx",
+    "lint:fix": "npm run lint -- --fix",
+    "format": "prettier --write ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "standard": "17.0.0",
+    "@astrojs/sitemap": "1.0.0",
+    "@typescript-eslint/parser": "5.48.0",
+    "@vitest/coverage-c8": "0.26.3",
+    "@vitest/ui": "0.26.3",
+    "astro-critters": "1.1.25",
+    "eslint": "8.31.0",
+    "eslint-config-standard": "17.0.0",
+    "eslint-plugin-astro": "0.21.1",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-n": "15.6.0",
+    "eslint-plugin-promise": "6.1.1",
+    "prettier": "2.8.1",
+    "prettier-plugin-astro": "0.7.2",
+    "sharp": "0.31.3",
+    "vite": "4.0.4",
     "vitest": "0.27.3",
     "wrangler": "2.8.0"
   },
@@ -24,7 +48,17 @@
     "extends": "standard"
   },
   "dependencies": {
+    "@astrojs/tailwind": "3.0.0",
+    "astro": "2.0.1",
     "hono": "2.7.4",
-    "puppeteer": "19.5.2"
+    "husky": "8.0.3",
+    "puppeteer": "19.5.2",
+    "tailwindcss": "3.2.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run format && npm run lint:fix",
+      "pre-push": "npm test"
+    }
   }
 }
