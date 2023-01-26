@@ -1,0 +1,29 @@
+name: Scrape Liga Nexo leaderboard
+
+on:
+  workflow_dispatch:
+
+  repository_dispatch:
+    types:
+      - webhook
+
+  schedule:
+    - cron: '0 4 * * 2'
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7.18.2
+          run_install: true
+      - run: |
+          npm run scrape:leaderboard
+          git config user.name liga-nexo-bot
+          git diff --quiet && git diff --staged --quiet || git commit -am "[bot] update Liga Nexo bbdd"
+          git push origin main
