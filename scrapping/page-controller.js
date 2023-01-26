@@ -1,8 +1,8 @@
 import { matchesScrapper } from './scrapping-items/matches-scrapper.js'
 import { leaderBoardScrapper } from './scrapping-items/leaderboard-scraper.js'
+import { teamsScrapper } from './scrapping-items/teams-scrapper.js'
 import { writeFile } from 'node:fs/promises'
 import path from 'node:path'
-import { teamsScrapper } from './scrapping-items/teams-scrapper.js'
 
 export async function scrapeAll (browserInstance) {
   console.log('Scrapping all ...')
