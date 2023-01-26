@@ -7,6 +7,8 @@ export const teamsScrapper = {
     await page.waitForSelector('div.tournament-panel')
     const teamsPanel = await page.$$eval('div.tournament-body-info__members > article', teams => {
       return Array.from(teams, team => {
+        // logo url
+        const LOGO_URL = 'https://liga-nexo-api.liga-nexo.workers.dev/static/logos/'
         // Team object
         const TEAM = {
           name: '',
@@ -18,7 +20,7 @@ export const teamsScrapper = {
         }
         TEAM.name = team.querySelector('h1').innerText
         TEAM.id = team.querySelector('a').getAttribute('href').trim().split('/')[2]
-        TEAM.logo = TEAM.id + '.svg'
+        TEAM.logo = LOGO_URL + TEAM.id + '.svg'
         return TEAM
       })
     })

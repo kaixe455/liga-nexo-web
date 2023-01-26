@@ -4,7 +4,7 @@
     "id": "ucam-tokiers-academy-lol",
     "color1": "",
     "color2": "",
-    "logo": "ucam-tokiers-academy-lol.svg",
+    "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/ucam-tokiers-academy-lol.svg",
     "players": [
       {
         "nickname": "megx ª",
@@ -73,7 +73,7 @@
     "id": "bis-unlock",
     "color1": "",
     "color2": "",
-    "logo": "bis-unlock.svg",
+    "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/bis-unlock.svg",
     "players": [
       {
         "nickname": "yoangi n",
@@ -149,7 +149,7 @@
     "id": "taurus-esports-lol",
     "color1": "",
     "color2": "",
-    "logo": "taurus-esports-lol.svg",
+    "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/taurus-esports-lol.svg",
     "players": [
       {
         "nickname": "stolen nicknamee",
@@ -211,7 +211,7 @@
     "id": "kawaii-kiwis",
     "color1": "",
     "color2": "",
-    "logo": "kawaii-kiwis.svg",
+    "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/kawaii-kiwis.svg",
     "players": [
       {
         "nickname": "Emvipi1",
@@ -291,7 +291,7 @@
     "id": "stormbringers",
     "color1": "",
     "color2": "",
-    "logo": "stormbringers.svg",
+    "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/stormbringers.svg",
     "players": [
       {
         "nickname": "864 842",
@@ -359,7 +359,7 @@
     "id": "ecorp-lol",
     "color1": "",
     "color2": "",
-    "logo": "ecorp-lol.svg",
+    "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/ecorp-lol.svg",
     "players": [
       {
         "nickname": "ash and pikachu",
@@ -450,7 +450,7 @@
     "id": "phlox-gaming-4",
     "color1": "",
     "color2": "",
-    "logo": "phlox-gaming-4.svg",
+    "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/phlox-gaming-4.svg",
     "players": [
       {
         "nickname": "CracklingEnigma",
@@ -526,7 +526,7 @@
     "id": "magna",
     "color1": "",
     "color2": "",
-    "logo": "magna.svg",
+    "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/magna.svg",
     "players": [
       {
         "nickname": "IlloJuanFanbøy",
@@ -588,7 +588,7 @@
     "id": "oxygen-valiants",
     "color1": "",
     "color2": "",
-    "logo": "oxygen-valiants.svg",
+    "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/oxygen-valiants.svg",
     "players": [
       {
         "nickname": "sand flea#EUW",
@@ -654,7 +654,7 @@
     "id": "tdc-esports-lol",
     "color1": "",
     "color2": "",
-    "logo": "tdc-esports-lol.svg",
+    "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/tdc-esports-lol.svg",
     "players": [
       {
         "nickname": " TDC Ivama",
