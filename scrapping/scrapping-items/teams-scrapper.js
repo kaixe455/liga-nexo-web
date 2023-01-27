@@ -1,6 +1,6 @@
 export const teamsScrapper = {
 	url: 'https://circuitotormenta.com/competition/tournament/liga-nexo-202223-split-2-1/participants',
-	async scraper(browser) {
+	async scraper (browser) {
 		const page = await browser.newPage()
 		console.log(`Navigating to ${this.url}...`)
 		await page.goto(this.url)
@@ -31,9 +31,9 @@ export const teamsScrapper = {
 		teamsPanel.forEach((team) => {
 			const players = []
 			try {
-				apiResponse.returnData.equipos.forEach((equipo) => {
-					if (equipo.slug === team.id) {
-						equipo.membersData.forEach((member) => {
+				apiResponse.returnData.equipos.forEach((teamInfo) => {
+					if (teamInfo.slug === team.id) {
+						teamInfo.membersData.forEach((member) => {
 							const PLAYER = {
 								nickname: '',
 								socials: [{}]
