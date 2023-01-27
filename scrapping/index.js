@@ -9,13 +9,13 @@ const browserInstance = startBrowser()
 
 //  Pass the browser instance to the scraper controller
 if (scrapeParam === 'all') {
-  scrapeAll(browserInstance)
+	scrapeAll(browserInstance)
 } else if (scrapeParam === 'leaderboard') {
-  scrapeLeaderBoard(browserInstance)
+	scrapeLeaderBoard(browserInstance)
 } else if (scrapeParam === 'matches') {
-  scrapeMatches(browserInstance)
+	scrapeMatches(browserInstance)
 } else if (scrapeParam === 'teams') {
-  scrapeTeams(browserInstance)
+	scrapeTeams(browserInstance)
 } else {
-  console.log('Nothing to scrape')
+	console.log('Nothing to scrape')
 }
