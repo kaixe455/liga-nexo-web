@@ -48,8 +48,9 @@
 		"extends": "standard"
 	},
 	"dependencies": {
+		"@astrojs/cloudflare": "6.1.0",
 		"@astrojs/tailwind": "3.0.0",
-		"astro": "2.0.1",
+		"astro": "2.0.2",
 		"hono": "2.7.4",
 		"husky": "8.0.3",
 		"puppeteer": "19.5.2",
