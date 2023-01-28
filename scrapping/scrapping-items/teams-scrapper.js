@@ -1,3 +1,4 @@
+import { TEAM_COLORS } from '../../bbdd/index.js'
 export const teamsScrapper = {
 	url: 'https://circuitotormenta.com/competition/tournament/liga-nexo-202223-split-2-1/participants',
 	async scraper (browser) {
@@ -52,6 +53,10 @@ export const teamsScrapper = {
 			} catch {
 				console.log('error while trying to get players')
 			}
+			// GET COLORS FOR TEAM
+			const teamColor = TEAM_COLORS.find((teamColors) => teamColors.id === team.id)
+			team.color1 = teamColor.color1
+			team.color2 = teamColor.color2
 		})
 		return teamsPanel
 	}
