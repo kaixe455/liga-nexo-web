@@ -6,7 +6,7 @@ import tailwind from '@astrojs/tailwind'
 // https://astro.build/config
 import cloudflare from '@astrojs/cloudflare'
 
-const web = 'liga-nexo-web.pages.dev'
+const web = 'https://liga-nexo-web.pages.dev'
 
 // https://astro.build/config
 export default defineConfig({
@@ -15,6 +15,5 @@ export default defineConfig({
 		host: true
 	},
 	integrations: [tailwind()],
-	output: 'server',
 	adapter: cloudflare()
 })
