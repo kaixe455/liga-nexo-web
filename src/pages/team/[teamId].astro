@@ -1,0 +1,14 @@
+---
+export async function getStaticPaths() {
+	const response = await fetch('https://liga-nexo-api.liga-nexo.workers.dev/teams')
+	const teams = await response.json()
+	return teams.map(({ id, image, name }) => ({
+		params: { teamId: id },
+		props: {
+			id,
+			name,
+			image
+		}
+	}))
+}
+---
