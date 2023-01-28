@@ -2,8 +2,8 @@
   {
     "name": "UCAM Tokiers Academy LoL",
     "id": "ucam-tokiers-academy-lol",
-    "color1": "",
-    "color2": "",
+    "color1": "#004379",
+    "color2": "#eca900",
     "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/ucam-tokiers-academy-lol.svg",
     "players": [
       {
@@ -71,8 +71,8 @@
   {
     "name": "Bis Unlock",
     "id": "bis-unlock",
-    "color1": "",
-    "color2": "",
+    "color1": "#193936",
+    "color2": "#dad5d3",
     "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/bis-unlock.svg",
     "players": [
       {
@@ -147,8 +147,8 @@
   {
     "name": "TAURUS ESPORTS LOL",
     "id": "taurus-esports-lol",
-    "color1": "",
-    "color2": "",
+    "color1": "#fe0000",
+    "color2": "#ffffff",
     "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/taurus-esports-lol.svg",
     "players": [
       {
@@ -209,8 +209,8 @@
   {
     "name": "Kawaii Kiwis",
     "id": "kawaii-kiwis",
-    "color1": "",
-    "color2": "",
+    "color1": "#ff4f74",
+    "color2": "#00ff00",
     "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/kawaii-kiwis.svg",
     "players": [
       {
@@ -289,8 +289,8 @@
   {
     "name": "Stormbringers",
     "id": "stormbringers",
-    "color1": "",
-    "color2": "",
+    "color1": "#c63552",
+    "color2": "#0078a5",
     "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/stormbringers.svg",
     "players": [
       {
@@ -357,8 +357,8 @@
   {
     "name": "ECORP LOL",
     "id": "ecorp-lol",
-    "color1": "",
-    "color2": "",
+    "color1": "#e2b533",
+    "color2": "#030304",
     "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/ecorp-lol.svg",
     "players": [
       {
@@ -448,8 +448,8 @@
   {
     "name": "Phlox Gaming",
     "id": "phlox-gaming-4",
-    "color1": "",
-    "color2": "",
+    "color1": "#180015",
+    "color2": "#ebf2f7",
     "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/phlox-gaming-4.svg",
     "players": [
       {
@@ -524,8 +524,8 @@
   {
     "name": "Magna",
     "id": "magna",
-    "color1": "",
-    "color2": "",
+    "color1": "#02fcfa",
+    "color2": "#484848",
     "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/magna.svg",
     "players": [
       {
@@ -586,8 +586,8 @@
   {
     "name": "Oxygen Valiants",
     "id": "oxygen-valiants",
-    "color1": "",
-    "color2": "",
+    "color1": "#12aded",
+    "color2": "#fb2774",
     "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/oxygen-valiants.svg",
     "players": [
       {
@@ -652,8 +652,8 @@
   {
     "name": "TDC Esports LOL",
     "id": "tdc-esports-lol",
-    "color1": "",
-    "color2": "",
+    "color1": "#ffdf12",
+    "color2": "#131313",
     "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/tdc-esports-lol.svg",
     "players": [
       {

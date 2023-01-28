@@ -10,6 +10,7 @@ export function readDBFile (dbName) {
 export const TEAMS = await readDBFile('teams')
 export const MATCHES = await readDBFile('matches')
 export const LEADERBOARD = await readDBFile('leaderboard')
+export const TEAM_COLORS = await readDBFile('teams_colors')
 
 export function writeDBFile (dbName, data) {
 	return writeFile(`${DB_PATH}/${dbName}.json`, JSON.stringify(data, null, 2), 'utf-8')
