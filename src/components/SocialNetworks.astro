@@ -1,0 +1,53 @@
+---
+const { color, mobileHidden } = Astro.props
+const socialNetworks = [
+	{
+		name: 'Twitch',
+		icon: '/logos/rrss/twitch.svg',
+		href: 'https://www.twitch.tv/kingsleague'
+	},
+	{
+		name: 'Twitter',
+		icon: '/logos/rrss/twitter.svg',
+		href: 'https://twitter.com/kingsleague'
+	},
+	{
+		name: 'Instagram',
+		icon: '/logos/rrss/instagram.svg',
+		href: 'https://www.instagram.com/kingsleague'
+	},
+	{
+		name: 'Youtube',
+		icon: '/logos/rrss/youtube.svg',
+		href: 'https://www.youtube.com/@KingsLeagueOfficial'
+	}
+]
+---
+
+<div class={`gap-4 justify-center  ${mobileHidden ? 'hidden md:flex' : 'flex'}`}>
+	{
+		socialNetworks.map(({ href, icon, name }) => (
+			<a
+				href={href}
+				target='_blank'
+				rel='noopener norefferer'
+				class={`md:w-6 md:h-6 lg:w-11 lg:h-11 flex items-center md:border-[#7541e4] md:border-2 md:p-2 justify-center rounded-full transition-all duration-500 ${
+					color === 'dark' ? 'bg-white' : 'bg-transparent hover:bg-white'
+				} [&>img]:hover:scale-125 [&>img]:hover:invert-0 [&>img]:hover:brightness-100`}
+			>
+				<img
+					class={`w-5 transition-all duration-500 ${
+						color === 'dark' ? 'invert-0' : 'invert-[100]'
+					} brightness-0 aspect-square`}
+					src={icon}
+					alt={`${name} Logo`}
+					width='20'
+					height='20'
+					loading='lazy'
+					decoding='async'
+					fetchpriority='low'
+				/>
+			</a>
+		))
+	}
+</div>
