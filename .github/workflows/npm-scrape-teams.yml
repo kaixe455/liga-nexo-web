@@ -37,8 +37,8 @@ jobs:
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
-          branch: scrapping-updates
-          delete-branch: true
+          branch: develop
+          delete-branch: false
           title: "[Scrapper] Update teams"
           body: |
             Update Teams bbdd
