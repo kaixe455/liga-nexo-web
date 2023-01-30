@@ -8,5 +8,5 @@ bucket = "./assets"
 [env.production]
 vars = { ENVIRONMENT = "production" }
 routes = [
-  { pattern = "liga-nexo-api.liga-nexo.workers.dev", custom_domain = true }
+  { pattern = "liga-nexo-api.liga-nexo.workers.dev", custom_domain = false }
 ]
