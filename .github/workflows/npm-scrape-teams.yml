@@ -28,3 +28,28 @@ jobs:
           git config --global user.email "angel.angulo.pam@gmail.com"
           git diff --quiet && git diff --staged --quiet || git commit -am "[bot] update Liga Nexo bbdd"
           git push origin develop
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.PAT_AUTO_PR }}
+          commit-message: Update liga Nexo teams bbdd
+          committer: GitHub <noreply@github.com>
+          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          signoff: false
+          branch: develop
+          delete-branch: false
+          title: "[Scrapper] Update teams"
+          body: |
+            Update Teams bbdd
+            - Updated teams.json bbdd
+          labels: |
+            scrapping
+            automated pr
+          assignees: kaixe455
+          reviewers: kaixe455
+          team-reviewers: |
+            owners
+            maintainers
+          milestone: 1
+          draft: false
