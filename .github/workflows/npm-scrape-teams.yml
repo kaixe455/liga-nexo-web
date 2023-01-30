@@ -24,10 +24,6 @@ jobs:
           run_install: true
       - run: |
           npm run scrape:teams
-          git config --global user.name anietoan455
-          git config --global user.email "angel.angulo.pam@gmail.com"
-          git diff --quiet && git diff --staged --quiet || git commit -am "[bot] update Liga Nexo bbdd"
-          git push origin develop
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v4
