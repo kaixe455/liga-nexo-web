@@ -38,6 +38,7 @@ jobs:
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
           branch: develop
+          base: main
           delete-branch: false
           title: "[Scrapper] Update teams"
           body: |
