@@ -105,8 +105,8 @@
       "team2": "Kawaii Kiwis",
       "date": "30-01-2023 - 18:00",
       "score1": 0,
-      "score2": 0,
-      "completed": false
+      "score2": 1,
+      "completed": true
     },
     {
       "team1": "Phlox Gaming",
