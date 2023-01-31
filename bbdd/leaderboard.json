@@ -1,72 +1,72 @@
 [
   {
     "rank": "1",
-    "name": "Stormbringers",
-    "played_matches": "2",
-    "results": "2 - 0 - 0",
-    "points": "6"
+    "name": "Oxygen Valiants",
+    "played_matches": "3",
+    "results": "3 - 0 - 0",
+    "points": "9"
   },
   {
     "rank": "2",
-    "name": "Oxygen Valiants",
-    "played_matches": "2",
-    "results": "2 - 0 - 0",
-    "points": "6"
+    "name": "Kawaii Kiwis",
+    "played_matches": "3",
+    "results": "3 - 0 - 0",
+    "points": "9"
   },
   {
     "rank": "3",
-    "name": "Kawaii Kiwis",
-    "played_matches": "2",
-    "results": "2 - 0 - 0",
+    "name": "Magna",
+    "played_matches": "3",
+    "results": "2 - 0 - 1",
     "points": "6"
   },
   {
     "rank": "4",
-    "name": "TAURUS ESPORTS LOL",
-    "played_matches": "2",
-    "results": "1 - 0 - 1",
-    "points": "3"
+    "name": "Stormbringers",
+    "played_matches": "3",
+    "results": "2 - 0 - 1",
+    "points": "6"
   },
   {
     "rank": "5",
-    "name": "Magna",
-    "played_matches": "2",
-    "results": "1 - 0 - 1",
+    "name": "TAURUS ESPORTS LOL",
+    "played_matches": "3",
+    "results": "1 - 0 - 2",
     "points": "3"
   },
   {
     "rank": "6",
     "name": "Bis Unlock",
-    "played_matches": "2",
-    "results": "1 - 0 - 1",
+    "played_matches": "3",
+    "results": "1 - 0 - 2",
     "points": "3"
   },
   {
     "rank": "7",
     "name": "ECORP LOL",
-    "played_matches": "2",
-    "results": "1 - 0 - 1",
+    "played_matches": "3",
+    "results": "1 - 0 - 2",
     "points": "3"
   },
   {
     "rank": "8",
-    "name": "Phlox Gaming",
-    "played_matches": "2",
-    "results": "0 - 0 - 2",
-    "points": "0"
+    "name": "UCAM Tokiers Academy LoL",
+    "played_matches": "3",
+    "results": "1 - 0 - 2",
+    "points": "3"
   },
   {
     "rank": "9",
     "name": "TDC Esports LOL",
-    "played_matches": "2",
-    "results": "0 - 0 - 2",
-    "points": "0"
+    "played_matches": "3",
+    "results": "1 - 0 - 2",
+    "points": "3"
   },
   {
     "rank": "10",
-    "name": "UCAM Tokiers Academy LoL",
-    "played_matches": "2",
-    "results": "0 - 0 - 2",
+    "name": "Phlox Gaming",
+    "played_matches": "3",
+    "results": "0 - 0 - 3",
     "points": "0"
   }
 ]
