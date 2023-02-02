@@ -1,5 +1,5 @@
 import { startBrowser } from './browser.js'
-import { scrapeAll, scrapeLeaderBoard, scrapeMatches, scrapeTeams } from './page-controller.js'
+import { scrapeAll, scrapeLeaderBoard, scrapeMatches, scrapeTeams, scrapePlayers } from './page-controller.js'
 import { argv } from 'node:process'
 
 const scrapeParam = argv[2]
@@ -16,6 +16,8 @@ if (scrapeParam === 'all') {
 	scrapeMatches(browserInstance)
 } else if (scrapeParam === 'teams') {
 	scrapeTeams(browserInstance)
+} else if (scrapeParam === 'players') {
+	scrapePlayers(browserInstance)
 } else {
 	console.log('Nothing to scrape')
 }
