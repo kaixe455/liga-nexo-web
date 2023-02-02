@@ -1,16 +1,16 @@
 [
 	{
-		"id": "ucam-tokiers-academy-lol",
+		"id": "ucam-tokiers-academy",
 		"color1": "#004379",
 		"color2": "#eca900"
 	},
 	{
-		"id": "bis-unlock",
+		"id": "bis-esports",
 		"color1": "#193936",
 		"color2": "#dad5d3"
 	},
 	{
-		"id": "taurus-esports-lol",
+		"id": "taurus-esports",
 		"color1": "#fe0000",
 		"color2": "#ffffff"
 	},
@@ -25,17 +25,17 @@
 		"color2": "#0078a5"
 	},
 	{
-		"id": "ecorp-lol",
+		"id": "ecorp",
 		"color1": "#e2b533",
 		"color2": "#030304"
 	},
 	{
-		"id": "phlox-gaming-4",
+		"id": "phlox-gaming",
 		"color1": "#180015",
 		"color2": "#ebf2f7"
 	},
 	{
-		"id": "magna",
+		"id": "magna-esports",
 		"color1": "#02fcfa",
 		"color2": "#484848"
 	},
@@ -45,7 +45,7 @@
 		"color2": "#fb2774"
 	},
 	{
-		"id": "tdc-esports-lol",
+		"id": "tdc-esports",
 		"color1": "#ffdf12",
 		"color2": "#131313"
 	}
