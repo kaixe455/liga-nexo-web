@@ -2,7 +2,7 @@
 const { local, visitant } = Astro.props
 const scoreStyles = {
 	shared:
-		'w-20 md:w-32 text-center whitespace-nowrap font-title rounded-md p-2 px-4 md:px-10 text-sm lg:text-xl leading-none text-center',
+		'w-20 md:w-32 text-center whitespace-nowrap font-title rounded-md p-2 px-4 md:px-10 text-sm lg:text-4xl leading-none text-center',
 	played: 'text-white bg-gray-700',
 	pending: 'bg-gray-200 transition group-hover:bg-gray-200'
 }
@@ -30,7 +30,7 @@ const state = 'pending'
 		</a>
 	</td>
 
-	<td class='border-b-1 text-center flex justify-center w-full items-center font-black text-2xl'>
+	<td class='border-b-1 text-center flex justify-center w-full items-center font-black text-4xl'>
 		<span class={`${scoreStyles.shared} ${scoreStyles[state]}`}>{text}</span>
 	</td>
 
