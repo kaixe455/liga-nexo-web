@@ -1,18 +1,20 @@
 ---
 import Container from '@components/Container.astro'
+import LeaderBoardTable from '@components/LeaderBoardTable.astro'
 import NextMatchTable from '@components/NextMatchTable.astro'
 import Layout from '@layouts/Layout.astro'
 ---
 
 <Layout title='Liga Nexo - Web Fan'>
-	<main>
+	<main class='bg-violet-300'>
 		<Container>
 			<div class='grid grid-cols-4 lg:grid-cols-8 gap-10 w-full px-4 md:px-8'>
-				<div class='col-span-4 xl:col-span-6 flex flex-col gap-y-10 my-5 justify-end'>
+				<div class='col-span-8 xl:col-span-8 flex flex-col gap-y-10 my-5 justify-end'>
 					<NextMatchTable />
 				</div>
-				<div class='col-span-4 lg:col-span-4 xl:col-span-5 mt-[20px] lg:mt-0'>
+				<div class='col-span-2 lg:col-span-2 xl:col-span-5 mt-[20px] lg:mt-0'>
 					<div class='grid grid-cols-6 gap-y-10 gap-x-5 w-full'></div>
+					<LeaderBoardTable />
 					<div class='my-10'></div>
 				</div>
 			</div>
