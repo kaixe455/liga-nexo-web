@@ -4,7 +4,7 @@ import { teamsScrapper } from './scrapping-items/teams-scrapper.js'
 import { writeFile } from 'node:fs/promises'
 import path from 'node:path'
 
-export async function scrapeAll(browserInstance) {
+export async function scrapeAll (browserInstance) {
 	console.log('Scrapping all ...')
 	let browser
 	try {
@@ -22,7 +22,7 @@ export async function scrapeAll(browserInstance) {
 	}
 }
 
-export async function scrapeLeaderBoard(browserInstance) {
+export async function scrapeLeaderBoard (browserInstance) {
 	console.log('Scrapping leaderboard ...')
 	let browser
 	try {
@@ -36,7 +36,7 @@ export async function scrapeLeaderBoard(browserInstance) {
 	}
 }
 
-export async function scrapeMatches(browserInstance) {
+export async function scrapeMatches (browserInstance) {
 	console.log('Scrapping matches ...')
 	let browser
 	try {
@@ -50,7 +50,7 @@ export async function scrapeMatches(browserInstance) {
 	}
 }
 
-export async function scrapeTeams(browserInstance) {
+export async function scrapeTeams (browserInstance) {
 	console.log('Scrapping teams ...')
 	let browser
 	try {
