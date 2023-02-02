@@ -1,0 +1,530 @@
+[
+  {
+    "teamId": "bis-esports",
+    "role": "Top",
+    "nickname": "Parlita",
+    "name": "Javier Lapuente Merino",
+    "twitch": "",
+    "twitter": "https://twitter.com/El_Parlas"
+  },
+  {
+    "teamId": "bis-esports",
+    "role": "Jungle",
+    "nickname": "Tikyl",
+    "name": "Iván Fernandez Morales",
+    "twitch": "",
+    "twitter": "https://twitter.com/Tikyl_lol"
+  },
+  {
+    "teamId": "bis-esports",
+    "role": "Mid",
+    "nickname": "Ishi",
+    "name": "Bruno Ramírez Ledesma",
+    "twitch": "",
+    "twitter": "https://twitter.com/ishi_mid"
+  },
+  {
+    "teamId": "bis-esports",
+    "role": "Bot",
+    "nickname": "Yoangi",
+    "name": "Joaquín Orellana Rey",
+    "twitch": "https://www.twitch.tv/yoangi",
+    "twitter": "https://twitter.com/yoangichan"
+  },
+  {
+    "teamId": "bis-esports",
+    "role": "Support",
+    "nickname": "Pinkmin",
+    "name": "Javier Fernández Galindo",
+    "twitch": "https://www.twitch.tv/jaaviitoosenpai",
+    "twitter": "https://twitter.com/JaaviitooSenpai"
+  },
+  {
+    "teamId": "bis-esports",
+    "role": "Coach",
+    "nickname": "Murci",
+    "name": "Alejandro Carrillo",
+    "twitch": "",
+    "twitter": "https://twitter.com/CoachMurci"
+  },
+  {
+    "teamId": "ecorp",
+    "role": "Top",
+    "nickname": "Hunter",
+    "name": "Antonio Sánchez Mosquera",
+    "twitch": "",
+    "twitter": "https://twitter.com/Hunterlol_"
+  },
+  {
+    "teamId": "ecorp",
+    "role": "Jungle",
+    "nickname": "naau",
+    "name": "Arnau Fores Garcia",
+    "twitch": "https://www.twitch.tv/naaubtw",
+    "twitter": "https://twitter.com/naaubtw"
+  },
+  {
+    "teamId": "ecorp",
+    "role": "Mid",
+    "nickname": "nae",
+    "name": "Néstor Martí Serrano",
+    "twitch": "",
+    "twitter": "https://twitter.com/nmsNae"
+  },
+  {
+    "teamId": "ecorp",
+    "role": "Bot",
+    "nickname": "Venom",
+    "name": "David Martínez Puerta",
+    "twitch": "",
+    "twitter": "https://twitter.com/adcvenom"
+  },
+  {
+    "teamId": "ecorp",
+    "role": "Support",
+    "nickname": "Aglaro",
+    "name": "Agustín Zaquiere Correa",
+    "twitch": "https://www.twitch.tv/AZaquiere",
+    "twitter": "https://twitter.com/AZaquiere"
+  },
+  {
+    "teamId": "ecorp",
+    "role": "Coach",
+    "nickname": "Devas",
+    "name": "Borja Molina",
+    "twitch": "",
+    "twitter": "https://twitter.com/Devasastro"
+  },
+  {
+    "teamId": "ecorp",
+    "role": "Coach",
+    "nickname": "Inori",
+    "name": "Marc Hidalgo",
+    "twitch": "",
+    "twitter": "https://twitter.com/In0riii"
+  },
+  {
+    "teamId": "kawaii-kiwis",
+    "role": "Top",
+    "nickname": "selenex",
+    "name": "Eric Lozano",
+    "twitch": "",
+    "twitter": "https://twitter.com/selenexlol"
+  },
+  {
+    "teamId": "kawaii-kiwis",
+    "role": "Jungle",
+    "nickname": "Infinity",
+    "name": "Christian Hernando San José",
+    "twitch": "",
+    "twitter": "https://twitter.com/Infinitylol989"
+  },
+  {
+    "teamId": "kawaii-kiwis",
+    "role": "Mid",
+    "nickname": "Macaquiño",
+    "name": "Sergio Bouzende Rodrigues",
+    "twitch": "",
+    "twitter": "https://twitter.com/macaquino_lol"
+  },
+  {
+    "teamId": "kawaii-kiwis",
+    "role": "Bot",
+    "nickname": "Kaii",
+    "name": "Jorge Saiz",
+    "twitch": "https://www.twitch.tv/Kaii_R",
+    "twitter": "https://twitter.com/KaiiADC_"
+  },
+  {
+    "teamId": "kawaii-kiwis",
+    "role": "Support",
+    "nickname": "ThreaM",
+    "name": "Eder Mohedas Plaza",
+    "twitch": "https://www.twitch.tv/threeaam",
+    "twitter": "https://twitter.com/thream_lol"
+  },
+  {
+    "teamId": "kawaii-kiwis",
+    "role": "Coach",
+    "nickname": "Borch",
+    "name": "Borja Ruíz",
+    "twitch": "",
+    "twitter": "https://twitter.com/Borch44"
+  },
+  {
+    "teamId": "kawaii-kiwis",
+    "role": "",
+    "nickname": "Link",
+    "name": "",
+    "twitch": "",
+    "twitter": ""
+  },
+  {
+    "teamId": "magna-esports",
+    "role": "Top",
+    "nickname": "TEMPAH",
+    "name": "Lluís Abad",
+    "twitch": "",
+    "twitter": "https://twitter.com/unluckytoperino"
+  },
+  {
+    "teamId": "magna-esports",
+    "role": "Jungle",
+    "nickname": "Stargazer",
+    "name": "Cristian Navarro Riquelme",
+    "twitch": "https://www.twitch.tv/xx1__",
+    "twitter": "https://twitter.com/1person9neurons"
+  },
+  {
+    "teamId": "magna-esports",
+    "role": "Mid",
+    "nickname": "YoOlek",
+    "name": "Oliver Herceg",
+    "twitch": "",
+    "twitter": "https://twitter.com/Yo_Olek"
+  },
+  {
+    "teamId": "magna-esports",
+    "role": "Bot",
+    "nickname": "Marcv1",
+    "name": "Marc Villalba",
+    "twitch": "",
+    "twitter": "https://twitter.com/marcv1_"
+  },
+  {
+    "teamId": "magna-esports",
+    "role": "Support",
+    "nickname": "Fede",
+    "name": "Federico Lecca",
+    "twitch": "https://www.twitch.tv/lolfede03",
+    "twitter": "https://twitter.com/LeccaFede"
+  },
+  {
+    "teamId": "oxygen-valiants",
+    "role": "Top",
+    "nickname": "Ethe",
+    "name": "Raúl Campos Vico",
+    "twitch": "https://www.twitch.tv/ethelik",
+    "twitter": "https://twitter.com/Ethelikith"
+  },
+  {
+    "teamId": "oxygen-valiants",
+    "role": "Jungle",
+    "nickname": "Shoolow",
+    "name": "Jorge López",
+    "twitch": "",
+    "twitter": "https://twitter.com/ShooLow_lol"
+  },
+  {
+    "teamId": "oxygen-valiants",
+    "role": "Jungle",
+    "nickname": "Jiahao",
+    "name": "Zhang Jia-Hao",
+    "twitch": "",
+    "twitter": "https://twitter.com/Jiahao1432"
+  },
+  {
+    "teamId": "oxygen-valiants",
+    "role": "Mid",
+    "nickname": "Modliszka",
+    "name": "Kacper Szelong",
+    "twitch": "",
+    "twitter": "https://twitter.com/KacperMantis"
+  },
+  {
+    "teamId": "oxygen-valiants",
+    "role": "Bot",
+    "nickname": "Aaron",
+    "name": "Aarón Esteban Gallego",
+    "twitch": "",
+    "twitter": "https://twitter.com/_AaronL0L"
+  },
+  {
+    "teamId": "oxygen-valiants",
+    "role": "Support",
+    "nickname": "Eskiper",
+    "name": "Edgar Gómez Llanos",
+    "twitch": "",
+    "twitter": "https://twitter.com/Eskiper13"
+  },
+  {
+    "teamId": "oxygen-valiants",
+    "role": "Coach",
+    "nickname": "Spartan",
+    "name": "Alejandro Bestard",
+    "twitch": "",
+    "twitter": "https://twitter.com/Spartanpls"
+  },
+  {
+    "teamId": "phlox-gaming",
+    "role": "Top",
+    "nickname": "Libra",
+    "name": "Emre Ercan Güler",
+    "twitch": "",
+    "twitter": "https://twitter.com/Libra1v1"
+  },
+  {
+    "teamId": "phlox-gaming",
+    "role": "Jungle",
+    "nickname": "Maul",
+    "name": "Danylo Bula",
+    "twitch": "",
+    "twitter": "https://twitter.com/Meowull"
+  },
+  {
+    "teamId": "phlox-gaming",
+    "role": "Mid",
+    "nickname": "Enigma",
+    "name": "Guillem Hernández Benítez",
+    "twitch": "",
+    "twitter": "https://twitter.com/Plorcs"
+  },
+  {
+    "teamId": "phlox-gaming",
+    "role": "Mid",
+    "nickname": "Shoack",
+    "name": "Alfonso Montiel",
+    "twitch": "https://www.twitch.tv/shoack_",
+    "twitter": "https://twitter.com/_alfm99"
+  },
+  {
+    "teamId": "phlox-gaming",
+    "role": "Bot",
+    "nickname": "Kodo",
+    "name": "Alejandro Farnos Raya",
+    "twitch": "",
+    "twitter": "https://twitter.com/KodoADC"
+  },
+  {
+    "teamId": "phlox-gaming",
+    "role": "Bot",
+    "nickname": "Izeman",
+    "name": "Alejandro Rivas González",
+    "twitch": "",
+    "twitter": "https://twitter.com/izealex"
+  },
+  {
+    "teamId": "phlox-gaming",
+    "role": "Support",
+    "nickname": "Boohis",
+    "name": "Jesus Garcia Gonzalez",
+    "twitch": "https://www.twitch.tv/boohis",
+    "twitter": "https://twitter.com/BoohisOP"
+  },
+  {
+    "teamId": "phlox-gaming",
+    "role": "Coach",
+    "nickname": "Sensei",
+    "name": "Armand Peraire",
+    "twitch": "",
+    "twitter": "https://twitter.com/CabritaSensei"
+  },
+  {
+    "teamId": "phlox-gaming",
+    "role": "Coach",
+    "nickname": "Espejo",
+    "name": "Rafael Espejo Carrillo",
+    "twitch": "https://www.twitch.tv/espej0",
+    "twitter": "https://twitter.com/Espejo_LoL"
+  },
+  {
+    "teamId": "stormbringers",
+    "role": "Top",
+    "nickname": "Rubenxico",
+    "name": "Rubén Sánchez Grima",
+    "twitch": "",
+    "twitter": "https://twitter.com/Rubenxicoo_"
+  },
+  {
+    "teamId": "stormbringers",
+    "role": "Jungle",
+    "nickname": "Indr4",
+    "name": "Sergio Fernández del Amo",
+    "twitch": "",
+    "twitter": "https://twitter.com/Indr4LoL"
+  },
+  {
+    "teamId": "stormbringers",
+    "role": "Mid",
+    "nickname": "Valans",
+    "name": "Miguel Eduardo Cortina Anta",
+    "twitch": "",
+    "twitter": "https://twitter.com/ValansLoL"
+  },
+  {
+    "teamId": "stormbringers",
+    "role": "Bot",
+    "nickname": "Nash1c",
+    "name": "Diego García",
+    "twitch": "",
+    "twitter": "https://twitter.com/nash1clol"
+  },
+  {
+    "teamId": "stormbringers",
+    "role": "Support",
+    "nickname": "Make",
+    "name": "Rodrigo Sinovas Sañudo",
+    "twitch": "",
+    "twitter": "https://twitter.com/Elmake89"
+  },
+  {
+    "teamId": "stormbringers",
+    "role": "Coach",
+    "nickname": "Kamikaze",
+    "name": "Óscar Pedrosa Gonzàlez",
+    "twitch": "",
+    "twitter": "https://twitter.com/Kamikaze_lol"
+  },
+  {
+    "teamId": "taurus-esports",
+    "role": "Top",
+    "nickname": "Poweh",
+    "name": "Alberto Cabeza Martínez",
+    "twitch": "https://www.twitch.tv/poweehh",
+    "twitter": "https://twitter.com/PoweOWeh"
+  },
+  {
+    "teamId": "taurus-esports",
+    "role": "Jungle",
+    "nickname": "Nacho",
+    "name": "Nacho García García",
+    "twitch": "",
+    "twitter": "https://twitter.com/Nacholol__"
+  },
+  {
+    "teamId": "taurus-esports",
+    "role": "Mid",
+    "nickname": "Sora",
+    "name": "Rafa Antúnez",
+    "twitch": "https://www.twitch.tv/sora_ad",
+    "twitter": "https://twitter.com/mid_sora"
+  },
+  {
+    "teamId": "taurus-esports",
+    "role": "Bot",
+    "nickname": "Kurilius",
+    "name": "Carlos Garcia",
+    "twitch": "",
+    "twitter": "https://twitter.com/Kurilius1"
+  },
+  {
+    "teamId": "taurus-esports",
+    "role": "Support",
+    "nickname": "Kandar",
+    "name": "Rubén Romero Cabello",
+    "twitch": "",
+    "twitter": "https://twitter.com/Kandarstic"
+  },
+  {
+    "teamId": "taurus-esports",
+    "role": "Top",
+    "nickname": "ManoloGap",
+    "name": "Manuel García",
+    "twitch": "https://twitch.tv/manoloelkebab",
+    "twitter": "https://twitter.com/ManoloGap"
+  },
+  {
+    "teamId": "tdc-esports",
+    "role": "Top",
+    "nickname": "Ocana",
+    "name": "Carlos Ocaña",
+    "twitch": "",
+    "twitter": "https://twitter.com/ocana_99"
+  },
+  {
+    "teamId": "tdc-esports",
+    "role": "Jungle",
+    "nickname": "DoubleAces",
+    "name": "",
+    "twitch": "https://www.twitch.tv/d0ubieaces",
+    "twitter": "https://twitter.com/ManuLoL_"
+  },
+  {
+    "teamId": "tdc-esports",
+    "role": "Mid",
+    "nickname": "Nillo",
+    "name": "",
+    "twitch": "",
+    "twitter": "https://twitter.com/Nilloo23"
+  },
+  {
+    "teamId": "tdc-esports",
+    "role": "Bot",
+    "nickname": "Hatty",
+    "name": "Jorge Alegre Casero",
+    "twitch": "https://www.twitch.tv/hatimati_",
+    "twitter": "https://twitter.com/HattyAdc"
+  },
+  {
+    "teamId": "tdc-esports",
+    "role": "Support",
+    "nickname": "Rydle",
+    "name": "Fernando Soria",
+    "twitch": "https://twitch.tv/rydle",
+    "twitter": "https://twitter.com/RydleFS"
+  },
+  {
+    "teamId": "tdc-esports",
+    "role": "Support",
+    "nickname": "Vini",
+    "name": "",
+    "twitch": "",
+    "twitter": "https://twitter.com/xvini811"
+  },
+  {
+    "teamId": "tdc-esports",
+    "role": "Coach",
+    "nickname": "Suzu",
+    "name": "Marc Fábregas de Miguel",
+    "twitch": "https://www.twitch.tv/suzu92",
+    "twitter": "https://twitter.com/Suzu_coach"
+  },
+  {
+    "teamId": "ucam-tokiers-academy",
+    "role": "Top",
+    "nickname": "Zaiiche",
+    "name": "Javier Moreno Rodríguez",
+    "twitch": "",
+    "twitter": "https://twitter.com/zaiiche"
+  },
+  {
+    "teamId": "ucam-tokiers-academy",
+    "role": "Jungle",
+    "nickname": "Rewound",
+    "name": "Manuel Olmo Carreño",
+    "twitch": "",
+    "twitter": "https://twitter.com/Rewound_"
+  },
+  {
+    "teamId": "ucam-tokiers-academy",
+    "role": "Mid",
+    "nickname": "Ruxal",
+    "name": "Raúl Carrillo",
+    "twitch": "https://www.twitch.tv/ruxalxiii",
+    "twitter": "https://twitter.com/RuxalXIII"
+  },
+  {
+    "teamId": "ucam-tokiers-academy",
+    "role": "Bot",
+    "nickname": "Lisbd",
+    "name": "Jose Lis López",
+    "twitch": "",
+    "twitter": "https://twitter.com/Lisbd10"
+  },
+  {
+    "teamId": "ucam-tokiers-academy",
+    "role": "Support",
+    "nickname": "Mega",
+    "name": "Ernesto Reyes Garcia",
+    "twitch": "https://www.twitch.tv/aaerni",
+    "twitter": "https://twitter.com/ernishino"
+  },
+  {
+    "teamId": "ucam-tokiers-academy",
+    "role": "Coach",
+    "nickname": "Kiino",
+    "name": "Joaquín Hernández Sánchez",
+    "twitch": "https://www.twitch.tv/kiinolol",
+    "twitter": "https://twitter.com/KiinoLoL"
+  }
+]
