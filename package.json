@@ -12,6 +12,7 @@
 		"scrape:matches": "node ./scrapping/index.js matches",
 		"scrape:teams": "node ./scrapping/index.js teams",
 		"scrape:players": "node ./scrapping/index.js players",
+		"scrape:stats": "node ./scrapping/index.js stats",
 		"dev": "astro dev",
 		"start": "astro dev",
 		"build": "astro build",
