@@ -2,6 +2,7 @@ import { matchesScrapper } from './scrapping-items/matches-scrapper.js'
 import { leaderBoardScrapper } from './scrapping-items/leaderboard-scraper.js'
 import { teamsScrapper } from './scrapping-items/teams-scrapper.js'
 import { playersScrapper } from './scrapping-items/players-scraper.js'
+import { statsScrapper } from './scrapping-items/players-stats-scrapper.js'
 import { writeFile } from 'node:fs/promises'
 import path from 'node:path'
 
@@ -70,10 +71,24 @@ export async function scrapePlayers (browserInstance) {
 	let browser
 	try {
 		browser = await browserInstance
-		const teams = await playersScrapper.scraper(browser)
+		const players = await playersScrapper.scraper(browser)
 		browser.close()
 		const filePath = path.join(process.cwd(), './bbdd/')
-		await writeFile(filePath + 'players.json', JSON.stringify(teams, null, 2), 'utf-8')
+		await writeFile(filePath + 'players.json', JSON.stringify(players, null, 2), 'utf-8')
+	} catch (err) {
+		console.log('Could not resolve the browser instance => ', err)
+	}
+}
+
+export async function scrapePlayersStats (browserInstance) {
+	console.log('Scrapping players stats ...')
+	let browser
+	try {
+		browser = await browserInstance
+		const stats = await statsScrapper.scraper(browser)
+		browser.close()
+		const filePath = path.join(process.cwd(), './bbdd/')
+		await writeFile(filePath + 'players-stats.json', JSON.stringify(stats, null, 2), 'utf-8')
 	} catch (err) {
 		console.log('Could not resolve the browser instance => ', err)
 	}
