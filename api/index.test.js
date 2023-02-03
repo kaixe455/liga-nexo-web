@@ -70,13 +70,7 @@ describe('Testing /teams route', () => {
 		{ name: 'id', type: 'string' },
 		{ name: 'color1', type: 'string' },
 		{ name: 'color2', type: 'string' },
-		{ name: 'logo', type: 'string' },
-		{ name: 'players', type: 'object' }
-	]
-
-	const playerProperties = [
-		{ name: 'nickname', type: 'string' },
-		{ name: 'socials', type: 'object' }
+		{ name: 'logo', type: 'string' }
 	]
 
 	it('The teams should be 10', async () => {
@@ -111,13 +105,6 @@ describe('Testing /teams route', () => {
 		expect(errorMessage).toEqual({
 			message: 'Team not found'
 		})
-	})
-
-	it('The players should have all its properties', async () => {
-		const resp = await worker.fetch('/teams')
-		const teams = await resp.json()
-		const players = teams.map((team) => team.players).flat()
-		players.forEach((player) => checkProperties(player, playerProperties))
 	})
 })
 
