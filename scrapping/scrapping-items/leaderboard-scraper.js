@@ -1,10 +1,11 @@
+import { TEAMS } from '../../bbdd/index.js'
 export const leaderBoardScrapper = {
 	url: 'https://circuitotormenta.com/competition/tournament/liga-nexo-202223-split-2-1/stage1',
-	async scraper(browser) {
+	async scraper (browser) {
 		const TEAM = {
 			rank: '',
 			name: '',
-			played_matches: '',
+			playedMatches: '',
 			results: '',
 			points: ''
 		}
@@ -27,9 +28,11 @@ export const leaderBoardScrapper = {
 				col++
 				return statsTeam
 			})
-			const { team: teamName, ...leaderboardForTeam } = Object.fromEntries(leaderBoardEntries)
+			const { name: teamName, ...leaderboardForTeam } = Object.fromEntries(leaderBoardEntries)
+			const team = TEAMS.find((team) => (((team.name)).toLowerCase()).search(teamName.toLowerCase().split(' ')[0]) !== -1)
 			leaderboardActual.push({
-				...leaderboardForTeam
+				...leaderboardForTeam,
+				team
 			})
 		})
 		return leaderboardActual
