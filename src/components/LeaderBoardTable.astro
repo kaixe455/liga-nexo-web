@@ -1,6 +1,4 @@
 ---
-import LeaderBoardRow from './LeaderBoardRow.astro'
-
 const response = await fetch('https://liga-nexo-api.liga-nexo.workers.dev/leaderboard')
 const leaderboard = await response.json()
 ---
@@ -18,7 +16,9 @@ const leaderboard = await response.json()
 		</thead>
 		<tbody>
 			{
-				leaderboard.map(({ name, played_matches, points, rank, results, logo }, index) => {
+				leaderboard.map((info, index) => {
+					const { playedMatches, points, rank, results, team } = info
+					const { name, id, logo } = team
 					return (
 						<tr class={'odd:bg-white even:bg-slate-100 border-b text-base hover:bg-slate-300'}>
 							<th
@@ -30,21 +30,21 @@ const leaderboard = await response.json()
 							<td class='px-6 py-4 font-black text-center'>
 								<a
 									class='flex items-center gap-x-4 transition hover:opacity-75'
-									href={`/team/${name}`}
+									href={`/team/${id}`}
 									rel='preload'
 								>
 									<img
-										src='https://liga-nexo-api.liga-nexo.workers.dev/static/logos/oxygen-valiants.svg'
+										src={logo}
 										alt={'Logo de ' + name}
-										class='w-6 h-6'
+										class='w-12 h-12'
 										decoding='async'
 										fetchpriority='high'
 									/>
 									<span class='hidden md:block'>{name}</span>
 								</a>
 							</td>
-							<td class='px-4 py-4 font-bold text-center'>{played_matches}</td>
-							<td class='px-4 py-4 text-center'>{points}</td>
+							<td class='px-4 py-4 font-bold text-center'>{playedMatches}</td>
+							<td class='px-4 py-4 font-bold text-center'>{points}</td>
 							<td class='px-4 py-4 font-bold text-center'>{results}</td>
 						</tr>
 					)

@@ -24,6 +24,10 @@ app.get('/', (ctx) => {
 		{
 			endpoint: 'teams/:id',
 			description: 'Return a team by id'
+		},
+		{
+			endpoint: '/teams/byname/:name',
+			description: 'Return a team looking by name'
 		}
 	])
 })
@@ -43,6 +47,13 @@ app.get('/teams', (ctx) => {
 app.get('/teams/:id', (ctx) => {
 	const id = ctx.req.param('id')
 	const foundTeam = teams.find((team) => team.id === id)
+	return foundTeam ? ctx.json(foundTeam) : ctx.json({ message: 'Team not found' }, 404)
+})
+
+app.get('/teams/byname/:name', (ctx) => {
+	const name = ctx.req.param('name').split(' ')[0]
+	const foundTeam = teams.find((team) => (((team.name)).toLowerCase()).search(name.toLowerCase()) !== -1)
+	console.log(foundTeam)
 	return foundTeam ? ctx.json(foundTeam) : ctx.json({ message: 'Team not found' }, 404)
 })
 
