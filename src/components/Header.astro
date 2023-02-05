@@ -6,9 +6,7 @@ const response = await fetch('https://liga-nexo-api.liga-nexo.workers.dev/teams'
 const teams = await response.json()
 ---
 
-<header
-	class='flex item-center w-full bg-gradient-to-b from-[#7541e4] to-[#a78fdb] py-3 px-4 gap-x-8'
->
+<header class='flex item-center w-full bg-gradient-to-b from-nexo to-[#a78fdb] py-3 px-4 gap-x-8'>
 	<div class='flex md:flex-col h-full md:gap-4 w-full justify-between'>
 		<nav class='w-min md:w-auto'>
 			<div class='mx-8'>
@@ -16,7 +14,7 @@ const teams = await response.json()
 			</div>
 			<div class='m-auto w-fit rounded-full md:bg-white p-1'>
 				<div
-					class='md:w-[724px] lg:w-[884px] md:rounded-full md:m-auto md:bg-white md:border-[#7541e4] md:border-2 md:p-2 px-0'
+					class='md:w-[724px] lg:w-[884px] md:rounded-full md:m-auto md:bg-white md:border-nexo md:border-2 md:p-2 px-0'
 				>
 					<ul
 						class='flex items-center justify-center rounded-x md:gap-x-4 [&>li>a:hover]:scale-125 [&>li>a:hover]:contrast-125 w-full'
@@ -56,26 +54,18 @@ const teams = await response.json()
 				class='absolute md:static bg-white p-1 rounded-full top-0 left-0 opacity-0 md:opacity-100 w-0 md:w-full transition-all duration-300 peer-checked:w-full peer-checked:opacity-100 z-20 ease-linear'
 			>
 				<ul
-					class='flex gap-x-4 justify-center self-center border-2 p-2 border-[#7541e4] rounded-full py-3 [&>li:hover]:bg-[#7541e4] [&>li:hover]:text-white [&>li:hover]:scale-125'
+					class='flex gap-x-4 justify-center self-center border-2 p-2 border-nexo rounded-full py-3 [&>li:hover]:bg-nexo [&>li:hover]:text-white [&>li:hover]:scale-125'
 				>
-					<li
-						class='border-2 bg-white border-[#7541e4] rounded-full group transition-all duration-500'
-					>
+					<li class='border-2 bg-white border-nexo rounded-full group transition-all duration-500'>
 						<a class='p-5' href='/equipos'>Equipos</a>
 					</li>
-					<li
-						class='border-2 bg-white border-[#7541e4] rounded-full group transition-all duration-500'
-					>
+					<li class='border-2 bg-white border-nexo rounded-full group transition-all duration-500'>
 						<a class='p-5' href='/calendario'>Calendario</a>
 					</li>
-					<li
-						class='border-2 bg-white border-[#7541e4] rounded-full group transition-all duration-500'
-					>
+					<li class='border-2 bg-white border-nexo rounded-full group transition-all duration-500'>
 						<a class='p-5' href='/estadisticas'>Estadisticas</a>
 					</li>
-					<li
-						class='border-2 bg-white border-[#7541e4] rounded-full group transition-all duration-500'
-					>
+					<li class='border-2 bg-white border-nexo rounded-full group transition-all duration-500'>
 						<a class='p-5' href='/contacto'> Contacto</a>
 					</li>
 				</ul>
