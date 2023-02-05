@@ -151,7 +151,7 @@ describe('Test /leaderboard route', () => {
 	const teamLeaderBoardProperties = [
 		{ name: 'rank', type: 'string' },
 		{ name: 'team', type: 'object' },
-		{ name: 'played_matches', type: 'string' },
+		{ name: 'playedMatches', type: 'string' },
 		{ name: 'results', type: 'string' },
 		{ name: 'points', type: 'string' }
 	]
