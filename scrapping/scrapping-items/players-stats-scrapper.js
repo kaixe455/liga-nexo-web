@@ -28,20 +28,20 @@ export const statsScrapper = {
 					championsPlayed: []
 				}
 				PLAYER_STATS.playerId = player.querySelector('tr > td:nth-child(2)').innerText
-				PLAYER_STATS.gamesPlayed = player.querySelector('tr > td:nth-child(3)').innerText
-				PLAYER_STATS.wins = player.querySelector('tr > td:nth-child(4)').innerText
-				PLAYER_STATS.losses = player.querySelector('tr > td:nth-child(5)').innerText
+				PLAYER_STATS.gamesPlayed = Number(player.querySelector('tr > td:nth-child(3)').innerText)
+				PLAYER_STATS.wins = Number(player.querySelector('tr > td:nth-child(4)').innerText)
+				PLAYER_STATS.losses = Number(player.querySelector('tr > td:nth-child(5)').innerText)
 				PLAYER_STATS.winRate = player.querySelector('tr > td:nth-child(6)').innerText
-				PLAYER_STATS.kills = player.querySelector('tr > td:nth-child(7)').innerText
-				PLAYER_STATS.deaths = player.querySelector('tr > td:nth-child(8)').innerText
-				PLAYER_STATS.assists = player.querySelector('tr > td:nth-child(9)').innerText
-				PLAYER_STATS.kda = player.querySelector('tr > td:nth-child(10)').innerText
-				PLAYER_STATS.cs = player.querySelector('tr > td:nth-child(11)').innerText
-				PLAYER_STATS.csPerMinute = player.querySelector('tr > td:nth-child(12)').innerText
+				PLAYER_STATS.kills = Number(player.querySelector('tr > td:nth-child(7)').innerText)
+				PLAYER_STATS.deaths = Number(player.querySelector('tr > td:nth-child(8)').innerText)
+				PLAYER_STATS.assists = Number(player.querySelector('tr > td:nth-child(9)').innerText)
+				PLAYER_STATS.kda = Number(player.querySelector('tr > td:nth-child(10)').innerText)
+				PLAYER_STATS.cs = Number(player.querySelector('tr > td:nth-child(11)').innerText)
+				PLAYER_STATS.csPerMinute = Number(player.querySelector('tr > td:nth-child(12)').innerText)
 				PLAYER_STATS.gold = player.querySelector('tr > td:nth-child(13)').innerText + 'k'
-				PLAYER_STATS.goldPerMinute = player.querySelector('tr > td:nth-child(14)').innerText
-				PLAYER_STATS.damage = player.querySelector('tr > td:nth-child(15)').innerText
-				PLAYER_STATS.damagePerMinute = player.querySelector('tr > td:nth-child(16)').innerText
+				PLAYER_STATS.goldPerMinute = Number(player.querySelector('tr > td:nth-child(14)').innerText)
+				PLAYER_STATS.damage = Number(player.querySelector('tr > td:nth-child(15)').innerText)
+				PLAYER_STATS.damagePerMinute = Number(player.querySelector('tr > td:nth-child(16)').innerText)
 				PLAYER_STATS.killParticipation = player.querySelector('tr > td:nth-child(17)').innerText
 				// get champs
 				const champs = player.querySelectorAll('tr > td:nth-child(21) > a')
