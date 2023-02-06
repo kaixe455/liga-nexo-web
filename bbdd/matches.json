@@ -154,9 +154,9 @@
       "team1": "Oxygen Valiants",
       "team2": "Phlox Gaming",
       "date": "06-02-2023 - 19:00",
-      "score1": 0,
+      "score1": 1,
       "score2": 0,
-      "completed": false
+      "completed": true
     },
     {
       "team1": "UCAM Tokiers Academy LoL",
