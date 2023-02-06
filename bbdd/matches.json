@@ -131,8 +131,8 @@
       "team2": "Magna",
       "date": "06-02-2023 - 16:00",
       "score1": 0,
-      "score2": 0,
-      "completed": false
+      "score2": 1,
+      "completed": true
     },
     {
       "team1": "Kawaii Kiwis",
