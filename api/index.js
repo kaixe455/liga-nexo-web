@@ -2,8 +2,11 @@ import { Hono } from 'hono'
 import leaderboard from '../bbdd/leaderboard.json'
 import matches from '../bbdd/matches.json'
 import teams from '../bbdd/teams.json'
+import players from '../bbdd/players.json'
+import playersStats from '../bbdd/players-stats.json'
 import { serveStatic } from 'hono/serve-static.module'
 import { cors } from 'hono/cors'
+import { sortByProperty } from '../utils/utils.js'
 
 const app = new Hono()
 app.use(cors({ origin: '*' }))
@@ -28,6 +31,10 @@ app.get('/', (ctx) => {
 		{
 			endpoint: '/teams/byname/:name',
 			description: 'Return a team looking by name'
+		},
+		{
+			endpoint: '/bestplayerkda',
+			description: 'Return best player by KDA'
 		}
 	])
 })
@@ -53,8 +60,21 @@ app.get('/teams/:id', (ctx) => {
 app.get('/teams/byname/:name', (ctx) => {
 	const name = ctx.req.param('name').split(' ')[0]
 	const foundTeam = teams.find((team) => (((team.name)).toLowerCase()).search(name.toLowerCase()) !== -1)
-	console.log(foundTeam)
 	return foundTeam ? ctx.json(foundTeam) : ctx.json({ message: 'Team not found' }, 404)
+})
+
+app.get('/bestplayerkda', (ctx) => {
+	// sort according to kda
+	const orderedByKda = playersStats.sort(sortByProperty('kda')).reverse()
+	const bestPlayerKda = orderedByKda[0]
+	const { kda, championsPlayed } = bestPlayerKda
+	const foundPlayer = players.find((player) => player.nickname === bestPlayerKda.playerId)
+	const { teamId, ...restOfFoundPlayer } = foundPlayer
+	const foundTeamPlayer = teams.find((team) => team.id === teamId)
+	restOfFoundPlayer.team = foundTeamPlayer
+	restOfFoundPlayer.kda = kda
+	restOfFoundPlayer.championPlayed = championsPlayed[0]
+	return restOfFoundPlayer ? ctx.json(restOfFoundPlayer) : ctx.json({ message: 'Player not found' }, 404)
 })
 
 app.get('/static/*', serveStatic({ root: './' }))
