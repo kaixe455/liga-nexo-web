@@ -1,4 +1,5 @@
 ---
+import BestPlayerCard from '@components/BestPlayerCard.astro'
 import Container from '@components/Container.astro'
 import LeaderBoardTable from '@components/LeaderBoardTable.astro'
 import NextMatchTable from '@components/NextMatchTable.astro'
@@ -18,7 +19,36 @@ import Layout from '@layouts/Layout.astro'
 					<LeaderBoardTable />
 				</div>
 				<div class='col-span-3 lg:col-span-3 xl:col-span-3 my-[20px] lg:mt-0'>
-					<LeaderBoardTable />
+					<BestPlayerCard
+						smallerBox
+						teamName='Oxygen Valiants'
+						teamId='oxygen-valiants'
+						teamImage='https://liga-nexo-api.liga-nexo.workers.dev/static/logos/ecorp.svg'
+						playerName='Babeta'
+						playerImage='https://liga-nexo-api.liga-nexo.workers.dev/static/logos/oxygen-valiants.svg'
+						title='2.81'
+						subtitle='MEJOR KDA LIGA NEXO'
+					/>
+					<BestPlayerCard
+						smallerBox
+						teamName='Oxygen Valiants'
+						teamId='oxygen-valiants'
+						teamImage='https://liga-nexo-api.liga-nexo.workers.dev/static/logos/ecorp.svg'
+						playerName='Babeta'
+						playerImage='https://liga-nexo-api.liga-nexo.workers.dev/static/logos/oxygen-valiants.svg'
+						title='2.81'
+						subtitle='MEJOR KDA LIGA NEXO'
+					/>
+					<BestPlayerCard
+						smallerBox
+						teamName='Oxygen Valiants'
+						teamId='oxygen-valiants'
+						teamImage='https://liga-nexo-api.liga-nexo.workers.dev/static/logos/ecorp.svg'
+						playerName='Babeta'
+						playerImage='https://liga-nexo-api.liga-nexo.workers.dev/static/logos/oxygen-valiants.svg'
+						title='2.81'
+						subtitle='MEJOR KDA LIGA NEXO'
+					/>
 				</div>
 			</div>
 		</Container>
