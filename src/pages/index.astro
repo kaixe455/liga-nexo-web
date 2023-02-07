@@ -28,10 +28,8 @@ const assistsPlayer = await getBestAssistsPlayer()
 						teamName={kdaPlayer.team.name}
 						teamImage={kdaPlayer.team.logo}
 						playerName={kdaPlayer.nickname}
-						teamColor1={kdaPlayer.team.color1}
-						teamColor2={kdaPlayer.team.color2}
-						playerImage={`champions/${kdaPlayer.championPlayed}.png`}
-						title={kdaPlayer.kda}
+						champion={`champions/${kdaPlayer.championPlayed}.png`}
+						stat={kdaPlayer.kda}
 						subtitle='MEJOR KDA LIGA NEXO'
 					/>
 					<BestPlayerCard
@@ -39,10 +37,8 @@ const assistsPlayer = await getBestAssistsPlayer()
 						teamName={killsPlayer.team.name}
 						teamImage={killsPlayer.team.logo}
 						playerName={killsPlayer.nickname}
-						teamColor1={killsPlayer.team.color1}
-						teamColor2={killsPlayer.team.color2}
-						playerImage={`champions/${killsPlayer.championPlayed}.png`}
-						title={killsPlayer.kills}
+						champion={`champions/${killsPlayer.championPlayed}.png`}
+						stat={killsPlayer.kills}
 						subtitle='MAYOR ASESINO LIGA NEXO'
 					/>
 					<BestPlayerCard
@@ -50,10 +46,8 @@ const assistsPlayer = await getBestAssistsPlayer()
 						teamName={assistsPlayer.team.name}
 						teamImage={assistsPlayer.team.logo}
 						playerName={assistsPlayer.nickname}
-						teamColor1={assistsPlayer.team.color1}
-						teamColor2={assistsPlayer.team.color2}
 						playerImage={`champions/${assistsPlayer.championPlayed}.png`}
-						title={assistsPlayer.assists}
+						stat={assistsPlayer.assists}
 						subtitle='MEJOR ASISTENTE LIGA NEXO'
 					/>
 				</div>
