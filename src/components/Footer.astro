@@ -1,0 +1,44 @@
+---
+import Container from './Container.astro'
+import SocialNetworks from './SocialNetworks.astro'
+import Sponsors from './Sponsors.astro'
+---
+
+<footer
+	class='page-footer text-white w-full p-8 bg-black relative overflow-hidden [&>div]:relative [&>div]:z-10'
+>
+	<Container>
+		<section class='flex flex-col justify-center lg:flex-row gap-10 text-sm my-10'>
+			<a href='/'>
+				<img
+					class='mx-auto lg:ml-0 aspect-[208/92]'
+					src='/logos/nexo/nexo-white.svg'
+					alt='logo de Liga Nexo'
+					loading='lazy'
+					decoding='async'
+					fetchpriority='low'
+					width='208'
+					height='92'
+				/>
+			</a>
+
+			<Sponsors />
+		</section>
+		<section
+			class='flex flex-col lg:flex-row text-center lg:text-left gap-14 lg:gap-4 text-sm text-lig my-10'
+		>
+			<nav
+				class='flex flex-col lg:flex-row gap-12 md:gap-4 justify-between w-full align-middle items-center'
+			>
+				<SocialNetworks theme='dark' />
+
+				<nav class='flex flex-wrap gap-5 justify-center lg:justify-around'>
+					<a class='font-semibold hover:underline' href='/contacto'>Contacto</a>
+					<a class='font-semibold hover:underline' href='#'>Política de Privacidad</a>
+					<a class='font-semibold hover:underline' href='#'>Aviso Legal</a>
+					<a class='font-semibold hover:underline' href='#'>Política de Cookies</a>
+				</nav>
+			</nav>
+		</section>
+	</Container>
+</footer>
