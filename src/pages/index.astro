@@ -5,11 +5,9 @@ import LeaderBoardTable from '@components/LeaderBoardTable.astro'
 import NextMatchTable from '@components/NextMatchTable.astro'
 import Layout from '@layouts/Layout.astro'
 import { getBestKDAPlayer, getBestAssistsPlayer, getBestKillsPlayer } from '@services/players.js'
-import { getClosestMatch } from '@services/matches.js'
 const kdaPlayer = await getBestKDAPlayer()
 const killsPlayer = await getBestKillsPlayer()
 const assistsPlayer = await getBestAssistsPlayer()
-const closestMatch = await getClosestMatch()
 ---
 
 <Layout title='Liga Nexo - Web Fan'>
