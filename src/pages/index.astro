@@ -46,7 +46,7 @@ const assistsPlayer = await getBestAssistsPlayer()
 						teamName={assistsPlayer.team.name}
 						teamImage={assistsPlayer.team.logo}
 						playerName={assistsPlayer.nickname}
-						playerImage={`champions/${assistsPlayer.championPlayed}.png`}
+						champion={`champions/${assistsPlayer.championPlayed}.png`}
 						stat={assistsPlayer.assists}
 						subtitle='MEJOR ASISTENTE LIGA NEXO'
 					/>
