@@ -1,9 +1,9 @@
 [
   {
     "rank": "1",
-    "playedMatches": "3",
-    "results": "3 - 0 - 0",
-    "points": "9",
+    "playedMatches": "4",
+    "results": "4 - 0 - 0",
+    "points": "12",
     "team": {
       "name": "Oxygen Valiants",
       "id": "oxygen-valiants",
@@ -14,8 +14,21 @@
   },
   {
     "rank": "2",
-    "playedMatches": "3",
-    "results": "3 - 0 - 0",
+    "playedMatches": "4",
+    "results": "3 - 0 - 1",
+    "points": "9",
+    "team": {
+      "name": "Magna Esports",
+      "id": "magna-esports",
+      "color1": "#02fcfa",
+      "color2": "#484848",
+      "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/magna-esports.svg"
+    }
+  },
+  {
+    "rank": "3",
+    "playedMatches": "4",
+    "results": "3 - 0 - 1",
     "points": "9",
     "team": {
       "name": "Kawaii Kiwis",
@@ -26,22 +39,48 @@
     }
   },
   {
-    "rank": "3",
-    "playedMatches": "3",
-    "results": "2 - 0 - 1",
+    "rank": "4",
+    "playedMatches": "4",
+    "results": "2 - 0 - 2",
     "points": "6",
     "team": {
-      "name": "Magna Esports",
-      "id": "magna-esports",
-      "color1": "#02fcfa",
-      "color2": "#484848",
-      "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/magna-esports.svg"
+      "name": "Taurus Esports",
+      "id": "taurus-esports",
+      "color1": "#fe0000",
+      "color2": "#ffffff",
+      "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/taurus-esports.svg"
     }
   },
   {
-    "rank": "4",
-    "playedMatches": "3",
-    "results": "2 - 0 - 1",
+    "rank": "5",
+    "playedMatches": "4",
+    "results": "2 - 0 - 2",
+    "points": "6",
+    "team": {
+      "name": "Bis Esports",
+      "id": "bis-esports",
+      "color1": "#193936",
+      "color2": "#dad5d3",
+      "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/bis-esports.svg"
+    }
+  },
+  {
+    "rank": "6",
+    "playedMatches": "4",
+    "results": "2 - 0 - 2",
+    "points": "6",
+    "team": {
+      "name": "ECORP",
+      "id": "ecorp",
+      "color1": "#e2b533",
+      "color2": "#030304",
+      "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/ecorp.svg"
+    }
+  },
+  {
+    "rank": "7",
+    "playedMatches": "4",
+    "results": "2 - 0 - 2",
     "points": "6",
     "team": {
       "name": "Stormbringers",
@@ -52,61 +91,9 @@
     }
   },
   {
-    "rank": "5",
-    "playedMatches": "3",
-    "results": "1 - 0 - 2",
-    "points": "3",
-    "team": {
-      "name": "Taurus Esports",
-      "id": "taurus-esports",
-      "color1": "#fe0000",
-      "color2": "#ffffff",
-      "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/taurus-esports.svg"
-    }
-  },
-  {
-    "rank": "6",
-    "playedMatches": "3",
-    "results": "1 - 0 - 2",
-    "points": "3",
-    "team": {
-      "name": "Bis Esports",
-      "id": "bis-esports",
-      "color1": "#193936",
-      "color2": "#dad5d3",
-      "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/bis-esports.svg"
-    }
-  },
-  {
-    "rank": "7",
-    "playedMatches": "3",
-    "results": "1 - 0 - 2",
-    "points": "3",
-    "team": {
-      "name": "ECORP",
-      "id": "ecorp",
-      "color1": "#e2b533",
-      "color2": "#030304",
-      "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/ecorp.svg"
-    }
-  },
-  {
     "rank": "8",
-    "playedMatches": "3",
-    "results": "1 - 0 - 2",
-    "points": "3",
-    "team": {
-      "name": "UCAM Tokiers Academy",
-      "id": "ucam-tokiers-academy",
-      "color1": "#004379",
-      "color2": "#eca900",
-      "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/ucam-tokiers-academy.svg"
-    }
-  },
-  {
-    "rank": "9",
-    "playedMatches": "3",
-    "results": "1 - 0 - 2",
+    "playedMatches": "4",
+    "results": "1 - 0 - 3",
     "points": "3",
     "team": {
       "name": "TDC Esports",
@@ -117,9 +104,22 @@
     }
   },
   {
+    "rank": "9",
+    "playedMatches": "4",
+    "results": "1 - 0 - 3",
+    "points": "3",
+    "team": {
+      "name": "UCAM Tokiers Academy",
+      "id": "ucam-tokiers-academy",
+      "color1": "#004379",
+      "color2": "#eca900",
+      "logo": "https://liga-nexo-api.liga-nexo.workers.dev/static/logos/ucam-tokiers-academy.svg"
+    }
+  },
+  {
     "rank": "10",
-    "playedMatches": "3",
-    "results": "0 - 0 - 3",
+    "playedMatches": "4",
+    "results": "0 - 0 - 4",
     "points": "0",
     "team": {
       "name": "Phlox Gaming",
