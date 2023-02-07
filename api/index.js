@@ -33,7 +33,7 @@ app.get('/', (ctx) => {
 			description: 'Return a team looking by name'
 		},
 		{
-			endpoint: '/bestplayerkda',
+			endpoint: '/bestPlayerKda',
 			description: 'Return best player by KDA'
 		}
 	])
@@ -45,6 +45,16 @@ app.get('/leaderboard', (ctx) => {
 
 app.get('/matches', (ctx) => {
 	return ctx.json(matches)
+})
+
+app.get('/allMatches', (ctx) => {
+	const allMatches = []
+	matches.forEach(dayPlay => {
+		dayPlay.forEach(match => {
+			allMatches.push(match)
+		})
+	})
+	return ctx.json(allMatches)
 })
 
 app.get('/teams', (ctx) => {
@@ -63,7 +73,7 @@ app.get('/teams/byname/:name', (ctx) => {
 	return foundTeam ? ctx.json(foundTeam) : ctx.json({ message: 'Team not found' }, 404)
 })
 
-app.get('/bestplayerkda', (ctx) => {
+app.get('/bestPlayerKda', (ctx) => {
 	// sort according to kda
 	const orderedByKda = playersStats.sort(sortByProperty('kda')).reverse()
 	const bestPlayerKda = orderedByKda[0]
@@ -73,6 +83,34 @@ app.get('/bestplayerkda', (ctx) => {
 	const foundTeamPlayer = teams.find((team) => team.id === teamId)
 	restOfFoundPlayer.team = foundTeamPlayer
 	restOfFoundPlayer.kda = kda
+	restOfFoundPlayer.championPlayed = championsPlayed[0]
+	return restOfFoundPlayer ? ctx.json(restOfFoundPlayer) : ctx.json({ message: 'Player not found' }, 404)
+})
+
+app.get('/bestPlayerKills', (ctx) => {
+	// sort according to kda
+	const orderedByKills = playersStats.sort(sortByProperty('kills')).reverse()
+	const bestPlayerKills = orderedByKills[0]
+	const { kills, championsPlayed } = bestPlayerKills
+	const foundPlayer = players.find((player) => player.nickname === bestPlayerKills.playerId)
+	const { teamId, ...restOfFoundPlayer } = foundPlayer
+	const foundTeamPlayer = teams.find((team) => team.id === teamId)
+	restOfFoundPlayer.team = foundTeamPlayer
+	restOfFoundPlayer.kills = kills
+	restOfFoundPlayer.championPlayed = championsPlayed[0]
+	return restOfFoundPlayer ? ctx.json(restOfFoundPlayer) : ctx.json({ message: 'Player not found' }, 404)
+})
+
+app.get('/bestPlayerAssists', (ctx) => {
+	// sort according to kda
+	const orderedByAssists = playersStats.sort(sortByProperty('assists')).reverse()
+	const bestPlayerAssists = orderedByAssists[0]
+	const { assists, championsPlayed } = bestPlayerAssists
+	const foundPlayer = players.find((player) => player.nickname === bestPlayerAssists.playerId)
+	const { teamId, ...restOfFoundPlayer } = foundPlayer
+	const foundTeamPlayer = teams.find((team) => team.id === teamId)
+	restOfFoundPlayer.team = foundTeamPlayer
+	restOfFoundPlayer.assists = assists
 	restOfFoundPlayer.championPlayed = championsPlayed[0]
 	return restOfFoundPlayer ? ctx.json(restOfFoundPlayer) : ctx.json({ message: 'Player not found' }, 404)
 })
