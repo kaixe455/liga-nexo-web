@@ -1,6 +1,6 @@
 ---
-const response = await fetch('https://liga-nexo-api.liga-nexo.workers.dev/leaderboard')
-const leaderboard = await response.json()
+import { getLeaderboard } from '@services/leaderboard.js'
+const leaderboard = await getLeaderboard()
 ---
 
 <div class='relative overflow-x-auto sm:rounded-lg'>
