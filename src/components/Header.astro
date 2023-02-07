@@ -1,9 +1,9 @@
 ---
 import Logo from './Logo.astro'
 import SocialNetworks from './SocialNetworks.astro'
+import { getAllTeams } from '@services/teams.js'
 
-const response = await fetch('https://liga-nexo-api.liga-nexo.workers.dev/teams')
-const teams = await response.json()
+const teams = await getAllTeams()
 ---
 
 <header class='flex item-center w-full bg-gradient-to-b from-nexo to-[#a78fdb] py-3 px-4 gap-x-8'>
