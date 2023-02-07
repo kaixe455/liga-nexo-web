@@ -1,10 +1,9 @@
 ---
 import CardBackgroundTeam from './BackgroundTeam.astro'
-const { playerName, smallerBox, playerImage, teamId, teamImage, teamName, title, subtitle } =
-	Astro.props
+const { playerName, smallerBox, playerImage, teamImage, teamName, title, subtitle } = Astro.props
 ---
 
-<article class={'relative bg-gradient-to-b from-nexo to-[#a78fdb]  rounded p-5 my-5'}>
+<article class={'relative bg-gradient-to-b from-nexo to-[#a78fdb] rounded p-5 my-5'}>
 	<div class='flex flex-col justify-between gap-y-10'>
 		<header class='relative z-40'>
 			<h4 class='text-white font-title font-black text-[40px] lg:text-[80px] leading-none'>
@@ -16,7 +15,7 @@ const { playerName, smallerBox, playerImage, teamId, teamImage, teamName, title,
 		</header>
 
 		<footer class='relative z-40'>
-			<strong class='text-white font-bold text-2xl'>{playerName}</strong>
+			<strong class='text-white font-bold text-3xl uppercase'>{playerName}</strong>
 			<p class='text-white opacity-80'>{teamName}</p>
 		</footer>
 	</div>
@@ -27,6 +26,6 @@ const { playerName, smallerBox, playerImage, teamId, teamImage, teamName, title,
 		decoding='async'
 		fetchpriority='high'
 		class={`absolute right-5 rounded-xl bottom-5 ${smallerBox ? 'w-36 lg:w-36' : 'w-36 lg:w-36'}`}
-		src='champions/Maokai.png'
+		src={playerImage}
 	/>
 </article>
