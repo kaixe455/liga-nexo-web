@@ -9,3 +9,13 @@ export const getAllTeams = async () => {
 		return null
 	}
 }
+
+export const getTeamByName = async (name) => {
+	try {
+		const response = await fetch(`${apiURL}/teams/byname/${name}`)
+		const team = await response.json()
+		return team
+	} catch (e) {
+		return null
+	}
+}
