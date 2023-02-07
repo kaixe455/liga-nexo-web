@@ -4,6 +4,10 @@ import Container from '@components/Container.astro'
 import LeaderBoardTable from '@components/LeaderBoardTable.astro'
 import NextMatchTable from '@components/NextMatchTable.astro'
 import Layout from '@layouts/Layout.astro'
+import { getBestKDAPlayer, getBestAssistsPlayer, getBestKillsPlayer } from '@services/players.js'
+const kdaPlayer = await getBestKDAPlayer()
+const killsPlayer = await getBestKillsPlayer()
+const assistsPlayer = await getBestAssistsPlayer()
 ---
 
 <Layout title='Liga Nexo - Web Fan'>
@@ -21,33 +25,36 @@ import Layout from '@layouts/Layout.astro'
 				<div class='col-span-3 lg:col-span-3 xl:col-span-3 my-[20px] lg:mt-0'>
 					<BestPlayerCard
 						smallerBox
-						teamName='Oxygen Valiants'
-						teamId='oxygen-valiants'
-						teamImage='https://liga-nexo-api.liga-nexo.workers.dev/static/logos/ecorp.svg'
-						playerName='Babeta'
-						playerImage='https://liga-nexo-api.liga-nexo.workers.dev/static/logos/oxygen-valiants.svg'
-						title='2.81'
+						teamName={kdaPlayer.team.name}
+						teamImage={kdaPlayer.team.logo}
+						playerName={kdaPlayer.nickname}
+						teamColor1={kdaPlayer.team.color1}
+						teamColor2={kdaPlayer.team.color2}
+						playerImage={`champions/${kdaPlayer.championPlayed}.png`}
+						title={kdaPlayer.kda}
 						subtitle='MEJOR KDA LIGA NEXO'
 					/>
 					<BestPlayerCard
 						smallerBox
-						teamName='Oxygen Valiants'
-						teamId='oxygen-valiants'
-						teamImage='https://liga-nexo-api.liga-nexo.workers.dev/static/logos/ecorp.svg'
-						playerName='Babeta'
-						playerImage='https://liga-nexo-api.liga-nexo.workers.dev/static/logos/oxygen-valiants.svg'
-						title='2.81'
-						subtitle='MEJOR KDA LIGA NEXO'
+						teamName={killsPlayer.team.name}
+						teamImage={killsPlayer.team.logo}
+						playerName={killsPlayer.nickname}
+						teamColor1={killsPlayer.team.color1}
+						teamColor2={killsPlayer.team.color2}
+						playerImage={`champions/${killsPlayer.championPlayed}.png`}
+						title={killsPlayer.kills}
+						subtitle='MAYOR ASESINO LIGA NEXO'
 					/>
 					<BestPlayerCard
 						smallerBox
-						teamName='Oxygen Valiants'
-						teamId='oxygen-valiants'
-						teamImage='https://liga-nexo-api.liga-nexo.workers.dev/static/logos/ecorp.svg'
-						playerName='Babeta'
-						playerImage='https://liga-nexo-api.liga-nexo.workers.dev/static/logos/oxygen-valiants.svg'
-						title='2.81'
-						subtitle='MEJOR KDA LIGA NEXO'
+						teamName={assistsPlayer.team.name}
+						teamImage={assistsPlayer.team.logo}
+						playerName={assistsPlayer.nickname}
+						teamColor1={assistsPlayer.team.color1}
+						teamColor2={assistsPlayer.team.color2}
+						playerImage={`champions/${assistsPlayer.championPlayed}.png`}
+						title={assistsPlayer.assists}
+						subtitle='MEJOR ASISTENTE LIGA NEXO'
 					/>
 				</div>
 			</div>

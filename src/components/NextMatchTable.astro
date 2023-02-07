@@ -1,8 +1,12 @@
 ---
 import NextMatch from './NextMatch.astro'
-const response = await fetch('https://liga-nexo-api.liga-nexo.workers.dev/matches')
-const gamesDays = await response.json()
-const testMatch = gamesDays[0][0]
+import { getClosestMatch } from '@services/matches.js'
+import { getTeamByName } from '@services/teams.js'
+const closestMatch = await getClosestMatch()
+const team1 = await getTeamByName(closestMatch.team1)
+const team2 = await getTeamByName(closestMatch.team2)
+closestMatch.team1 = team1
+closestMatch.team2 = team2
 ---
 
 <div class='relative overflow-x-auto shadow-md sm:rounded-lg'>
@@ -36,7 +40,7 @@ const testMatch = gamesDays[0][0]
 					</div>
 					<div class='flex flex-col gap-0'>
 						<h2 class='font-black lg:text-2xl text-lg uppercase'>Proximo partido</h2>
-						<h3 class='opacity-50 font-bold lg:text-base text-sm'>17/11/2022 17:00</h3>
+						<h3 class='opacity-50 font-bold lg:text-base text-sm'>{closestMatch.date}</h3>
 					</div>
 				</th>
 			</tr>
@@ -44,11 +48,11 @@ const testMatch = gamesDays[0][0]
 		<tbody>
 			<NextMatch
 				useSmallNames
-				local={testMatch.team1}
-				visitant={testMatch.team2}
-				score={testMatch.score1}
-				timestamp={testMatch.date}
-				hour={testMatch.date}
+				local={closestMatch.team1}
+				visitant={closestMatch.team2}
+				score={closestMatch.score1}
+				timestamp={closestMatch.date}
+				hour={closestMatch.date}
 			/>
 		</tbody>
 	</table>
