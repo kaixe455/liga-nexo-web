@@ -1,0 +1,57 @@
+---
+import { getLeaderboardByTeamId } from '@services/leaderboard.js'
+const { teamId } = Astro.props
+const { rank, playedMatches, points, results } = await getLeaderboardByTeamId(teamId)
+const stats = [
+	{
+		title: 'Posición',
+		value: rank
+	},
+	{
+		title: 'Victorias',
+		value: results
+	},
+	{
+		title: 'Derrotas',
+		value: results
+	},
+	{
+		title: 'Puntos',
+		value: points
+	},
+	{
+		title: 'Partidos jugados',
+		value: playedMatches
+	}
+]
+---
+
+<div class='flex justify-center md:justify-start md:m-0 m-auto'>
+	<section
+		class='p-5 rounded-lg mt-5 grid grid-cols-3 gap-y-2 gap-x-2 md:gap-x-12 bg-gradient-to-tr from-[#ffffff] via-[#ffffff] to-[#cd55002a] shadow-xl'
+	>
+		{
+			stats.map((stat) => (
+				<div
+					class='flex
+					flex-col
+					justify-between
+					items-start
+					first:row-start-1
+					first:row-end-4
+					md:[&>strong]:first:text-[9em]
+					[&>strong]:first:text-[5em]
+					[&>strong]:first:leading-[1em]
+					md:[&>h4]:first:text-[1.5em]
+					first:justify-center
+					first:items-center'
+				>
+					<h4 class='text-nexo uppercase font-bold font-black sm:text-base text-xs'>
+						{stat.title}
+					</h4>
+					<strong class='text-4xl font-black text-black font-bold'>{stat.value}</strong>
+				</div>
+			))
+		}
+	</section>
+</div>
