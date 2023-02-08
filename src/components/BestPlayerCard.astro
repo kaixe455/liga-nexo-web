@@ -6,17 +6,17 @@ const { playerName, champion, teamImage, teamName, stat, subtitle } = Astro.prop
 <article class={'relative bg-gradient-to-b from-nexo to-[#a78fdb] rounded p-5 my-5'}>
 	<div class='flex flex-col justify-between gap-y-10'>
 		<header class='relative z-40'>
-			<h4 class='text-white font-title font-black text-[40px] lg:text-[80px] leading-none'>
+			<h4 class='text-white font-black text-[40px] lg:text-[80px] leading-none'>
 				{stat}
 			</h4>
-			<h5 class='uppercase text-black font-black font-title text-lg lg:text-3xl'>
+			<h5 class='uppercase text-black font-black text-lg lg:text-3xl'>
 				{subtitle}
 			</h5>
 		</header>
 
 		<footer class='relative z-40'>
 			<strong class='text-white font-bold text-3xl uppercase'>{playerName}</strong>
-			<p class='text-white opacity-80'>{teamName}</p>
+			<p class='text-white font-body opacity-80'>{teamName}</p>
 		</footer>
 	</div>
 	<CardBackgroundTeam image={teamImage} />
