@@ -29,3 +29,13 @@ export const getBestAssistsPlayer = async () => {
 		return null
 	}
 }
+
+export const getPlayersForTeam = async (teamId) => {
+	try {
+		const response = await fetch(`${apiURL}/players/${teamId}`)
+		const players = await response.json()
+		return players
+	} catch (e) {
+		return null
+	}
+}
