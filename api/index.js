@@ -43,6 +43,12 @@ app.get('/leaderboard', (ctx) => {
 	return ctx.json(leaderboard)
 })
 
+app.get('/leaderboard/:idTeam', (ctx) => {
+	const idTeam = ctx.req.param('idTeam')
+	const foundTeam = leaderboard.find((rank) => rank.team.id === idTeam)
+	return foundTeam ? ctx.json(foundTeam) : ctx.json({ message: 'Team not found in leaderboard' }, 404)
+})
+
 app.get('/matches', (ctx) => {
 	return ctx.json(matches)
 })
