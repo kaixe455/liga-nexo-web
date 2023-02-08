@@ -3,6 +3,7 @@ import BestPlayerCard from '@components/BestPlayerCard.astro'
 import Container from '@components/Container.astro'
 import LeaderBoardTable from '@components/LeaderBoardTable.astro'
 import NextMatchTable from '@components/NextMatchTable.astro'
+import TeamsSelector from '@components/TeamsSelector.astro'
 import Layout from '@layouts/Layout.astro'
 import { getBestKDAPlayer, getBestAssistsPlayer, getBestKillsPlayer } from '@services/players.js'
 const kdaPlayer = await getBestKDAPlayer()
@@ -50,6 +51,11 @@ const assistsPlayer = await getBestAssistsPlayer()
 						stat={assistsPlayer.assists}
 						subtitle='MEJOR ASISTENTE LIGA NEXO'
 					/>
+				</div>
+			</div>
+			<div class='grid grid-cols-1 lg:grid-cols-1 gap-10 w-full px-4 md:px-8'>
+				<div class='col-span-1 xl:col-span-1 flex flex-col gap-y-10 my-5 justify-end'>
+					<TeamsSelector />
 				</div>
 			</div>
 		</Container>
