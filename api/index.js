@@ -115,6 +115,12 @@ app.get('/bestPlayerAssists', (ctx) => {
 	return restOfFoundPlayer ? ctx.json(restOfFoundPlayer) : ctx.json({ message: 'Player not found' }, 404)
 })
 
+app.get('/players/:teamId', (ctx) => {
+	const teamId = ctx.req.param('teamId')
+	const foundPlayers = players.filter((player) => player.teamId === teamId)
+	return foundPlayers ? ctx.json(foundPlayers) : ctx.json({ message: 'Players not found for team' }, 404)
+})
+
 app.get('/static/*', serveStatic({ root: './' }))
 
 app.notFound((c) => {
