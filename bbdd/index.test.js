@@ -13,6 +13,6 @@ describe('testing bbdd functionality', () => {
 	})
 	it('returns team image', () => {
 		const image = getImageFromTeam({ name: 'Oxygen Valiants' })
-		expect(image).toBe('https://liga-nexo-api.liga-nexo.workers.dev/static/logos/oxygen-valiants.svg')
+		expect(image).toBe('/logos/teams/oxygen-valiants.svg')
 	})
 })
