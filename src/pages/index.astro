@@ -24,33 +24,45 @@ const assistsPlayer = await getBestAssistsPlayer()
 					<LeaderBoardTable />
 				</div>
 				<div class='col-span-3 lg:col-span-3 xl:col-span-3 my-[20px] lg:mt-0'>
-					<BestPlayerCard
-						smallerBox
-						teamName={kdaPlayer.team.name}
-						teamImage={kdaPlayer.team.logo}
-						playerName={kdaPlayer.nickname}
-						champion={`champions/${kdaPlayer.championPlayed}.png`}
-						stat={kdaPlayer.kda}
-						subtitle='MEJOR KDA LIGA NEXO'
-					/>
-					<BestPlayerCard
-						smallerBox
-						teamName={killsPlayer.team.name}
-						teamImage={killsPlayer.team.logo}
-						playerName={killsPlayer.nickname}
-						champion={`champions/${killsPlayer.championPlayed}.png`}
-						stat={killsPlayer.kills}
-						subtitle='MAYOR ASESINO LIGA NEXO'
-					/>
-					<BestPlayerCard
-						smallerBox
-						teamName={assistsPlayer.team.name}
-						teamImage={assistsPlayer.team.logo}
-						playerName={assistsPlayer.nickname}
-						champion={`champions/${assistsPlayer.championPlayed}.png`}
-						stat={assistsPlayer.assists}
-						subtitle='MEJOR ASISTENTE LIGA NEXO'
-					/>
+					{
+						kdaPlayer && kdaPlayer.team && (
+							<BestPlayerCard
+								smallerBox
+								teamName={kdaPlayer.team.name}
+								teamImage={kdaPlayer.team.logo}
+								playerName={kdaPlayer.nickname}
+								champion={`champions/${kdaPlayer.championPlayed}.png`}
+								stat={kdaPlayer.kda}
+								subtitle='MEJOR KDA LIGA NEXO'
+							/>
+						)
+					}
+					{
+						killsPlayer && killsPlayer.team && (
+							<BestPlayerCard
+								smallerBox
+								teamName={killsPlayer.team.name}
+								teamImage={killsPlayer.team.logo}
+								playerName={killsPlayer.nickname}
+								champion={`champions/${killsPlayer.championPlayed}.png`}
+								stat={killsPlayer.kills}
+								subtitle='MAYOR ASESINO LIGA NEXO'
+							/>
+						)
+					}
+					{
+						assistsPlayer && assistsPlayer.team && (
+							<BestPlayerCard
+								smallerBox
+								teamName={assistsPlayer.team.name}
+								teamImage={assistsPlayer.team.logo}
+								playerName={assistsPlayer.nickname}
+								champion={`champions/${assistsPlayer.championPlayed}.png`}
+								stat={assistsPlayer.assists}
+								subtitle='MEJOR ASISTENTE LIGA NEXO'
+							/>
+						)
+					}
 				</div>
 			</div>
 			<div class='grid grid-cols-1 lg:grid-cols-1 gap-10 w-full px-4 md:px-8'>
