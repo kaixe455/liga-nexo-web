@@ -5,7 +5,7 @@ import BackgroundTeam from './BackgroundTeam.astro'
 const teams = await getAllTeams()
 ---
 
-<section class='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 rounded'>
+<section class='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 rounded p-5'>
 	{
 		teams.map((team) => {
 			const { id, name, logo } = team
