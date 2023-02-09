@@ -43,6 +43,12 @@ app.get('/leaderboard', (ctx) => {
 	return ctx.json(leaderboard)
 })
 
+app.get('/leaderboard/:idTeam', (ctx) => {
+	const idTeam = ctx.req.param('idTeam')
+	const foundTeam = leaderboard.find((rank) => rank.team.id === idTeam)
+	return foundTeam ? ctx.json(foundTeam) : ctx.json({ message: 'Team not found in leaderboard' }, 404)
+})
+
 app.get('/matches', (ctx) => {
 	return ctx.json(matches)
 })
@@ -113,6 +119,12 @@ app.get('/bestPlayerAssists', (ctx) => {
 	restOfFoundPlayer.assists = assists
 	restOfFoundPlayer.championPlayed = championsPlayed[0]
 	return restOfFoundPlayer ? ctx.json(restOfFoundPlayer) : ctx.json({ message: 'Player not found' }, 404)
+})
+
+app.get('/players/:teamId', (ctx) => {
+	const teamId = ctx.req.param('teamId')
+	const foundPlayers = players.filter((player) => player.teamId === teamId)
+	return foundPlayers ? ctx.json(foundPlayers) : ctx.json({ message: 'Players not found for team' }, 404)
 })
 
 app.get('/static/*', serveStatic({ root: './' }))

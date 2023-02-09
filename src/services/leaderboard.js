@@ -9,3 +9,13 @@ export const getLeaderboard = async () => {
 		return null
 	}
 }
+
+export const getLeaderboardByTeamId = async (teamId) => {
+	try {
+		const response = await fetch(`${apiURL}/leaderboard/${teamId}`)
+		const leaderboard = await response.json()
+		return leaderboard
+	} catch (e) {
+		return null
+	}
+}
