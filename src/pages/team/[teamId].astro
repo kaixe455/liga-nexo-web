@@ -6,9 +6,6 @@ import { getAllTeams } from '@services/teams.js'
 import { getPlayersForTeam } from '@services/players.js'
 import TeamStadistics from '@components/TeamStadistics.astro'
 const { id, name, logo, color1 } = Astro.props
-console.log(Astro.props)
-console.log(name)
-// const playersTwelve = await getPlayersTwelveFor({ teamId: id })
 const players = await getPlayersForTeam(id)
 const playerSupport = players.filter((player) => player.role === 'Support')
 const playerAdc = players.filter((player) => player.role === 'Bot')
@@ -17,13 +14,14 @@ const playerTop = players.filter((player) => player.role === 'Top')
 const playerJungler = players.filter((player) => player.role === 'Jungler')
 const coaches = players.filter((player) => player.role === 'Coach')
 const coach = coaches[0]
-console.log(coach)
 export async function getStaticPaths() {
 	const teams = await getAllTeams()
-	return teams.map((team) => ({
-		params: { teamId: team.id },
-		props: { ...team }
-	}))
+	if (teams) {
+		return teams.map((team) => ({
+			params: { teamId: team.id },
+			props: { ...team }
+		}))
+	}
 }
 const gradient = `bg-${id}`
 ---
