@@ -9,7 +9,7 @@ export const teamsScrapper = {
 		const teamsPanel = await page.$$eval('#mw-content-text > div > div.mw-parser-output > div.tournament-rosters.maxteams-5 > div > table > tbody > tr > th > div', (teams) => {
 			return Array.from(teams, (team) => {
 				// logo url
-				const LOGO_URL = 'https://liga-nexo-api.liga-nexo.workers.dev/static/logos/'
+				const LOGO_URL = '/logos/teams/'
 				// Team object
 				const TEAM = {
 					name: '',
