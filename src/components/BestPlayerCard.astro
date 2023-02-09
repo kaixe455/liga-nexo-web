@@ -1,9 +1,10 @@
 ---
 import CardBackgroundTeam from './BackgroundTeam.astro'
-const { playerName, champion, teamImage, teamName, stat, subtitle } = Astro.props
+const { playerName, champion, teamImage, teamName, stat, subtitle, teamId } = Astro.props
+const gradient = `bg-${teamId}`
 ---
 
-<article class={'relative bg-gradient-to-b from-nexo to-[#a78fdb] rounded p-5 my-5'}>
+<article class={`relative ${gradient} rounded p-5 my-5`}>
 	<div class='flex flex-col justify-between gap-y-10'>
 		<header class='relative z-40'>
 			<h4 class='text-white font-black text-[40px] lg:text-[80px] leading-none'>

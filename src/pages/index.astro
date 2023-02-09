@@ -6,6 +6,7 @@ import NextMatchTable from '@components/NextMatchTable.astro'
 import TeamsSelector from '@components/TeamsSelector.astro'
 import Layout from '@layouts/Layout.astro'
 import { getBestKDAPlayer, getBestAssistsPlayer, getBestKillsPlayer } from '@services/players.js'
+import { teamsScrapper } from 'scrapping/scrapping-items/teams-scrapper'
 const kdaPlayer = await getBestKDAPlayer()
 const killsPlayer = await getBestKillsPlayer()
 const assistsPlayer = await getBestAssistsPlayer()
@@ -29,6 +30,7 @@ const assistsPlayer = await getBestAssistsPlayer()
 							<BestPlayerCard
 								smallerBox
 								teamName={kdaPlayer.team.name}
+								teamId={kdaPlayer.team.id}
 								teamImage={kdaPlayer.team.logo}
 								playerName={kdaPlayer.nickname}
 								champion={`champions/${kdaPlayer.championPlayed}.png`}
@@ -42,6 +44,7 @@ const assistsPlayer = await getBestAssistsPlayer()
 							<BestPlayerCard
 								smallerBox
 								teamName={killsPlayer.team.name}
+								teamId={killsPlayer.team.id}
 								teamImage={killsPlayer.team.logo}
 								playerName={killsPlayer.nickname}
 								champion={`champions/${killsPlayer.championPlayed}.png`}
@@ -55,6 +58,7 @@ const assistsPlayer = await getBestAssistsPlayer()
 							<BestPlayerCard
 								smallerBox
 								teamName={assistsPlayer.team.name}
+								teamId={assistsPlayer.team.id}
 								teamImage={assistsPlayer.team.logo}
 								playerName={assistsPlayer.nickname}
 								champion={`champions/${assistsPlayer.championPlayed}.png`}
