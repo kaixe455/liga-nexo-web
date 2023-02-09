@@ -52,7 +52,7 @@
 	"dependencies": {
 		"@astrojs/cloudflare": "6.1.0",
 		"@astrojs/tailwind": "3.0.0",
-		"astro": "2.0.2",
+		"astro": "2.0.9",
 		"hono": "2.7.4",
 		"husky": "8.0.3",
 		"puppeteer": "19.5.2",
