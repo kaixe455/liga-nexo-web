@@ -145,6 +145,14 @@
   },
   {
     "teamId": "kawaii-kiwis",
+    "role": "Support",
+    "nickname": "Rito",
+    "name": "Pol de la Rica",
+    "twitch": "",
+    "twitter": "https://twitter.com/Rito1v9"
+  },
+  {
+    "teamId": "kawaii-kiwis",
     "role": "Coach",
     "nickname": "Borch",
     "name": "Borja Ruíz",
@@ -230,6 +238,14 @@
     "name": "Kacper Szelong",
     "twitch": "",
     "twitter": "https://twitter.com/KacperMantis"
+  },
+  {
+    "teamId": "oxygen-valiants",
+    "role": "Mid",
+    "nickname": "Li",
+    "name": "Li Zhi-Gang",
+    "twitch": "",
+    "twitter": "https://twitter.com/Zz_lzg7"
   },
   {
     "teamId": "oxygen-valiants",
