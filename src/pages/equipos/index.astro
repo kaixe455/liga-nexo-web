@@ -1,10 +1,13 @@
 ---
 import Layout from '@layouts/Layout.astro'
 import Container from '@components/Container.astro'
+import TeamsSelector from '@components/TeamsSelector.astro'
+import SectionName from '@components/SectionName.astro'
 ---
 
 <Layout title='Equipos'>
+	<SectionName name='EQUIPOS NEXO' />
 	<Container>
-		<h1>EQUIPOS</h1>
+		<TeamsSelector />
 	</Container>
 </Layout>

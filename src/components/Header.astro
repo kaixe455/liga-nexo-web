@@ -20,28 +20,29 @@ const teams = await getAllTeams()
 						class='flex items-center justify-center rounded-x md:gap-x-4 [&>li>a:hover]:scale-125 [&>li>a:hover]:contrast-125 w-full'
 					>
 						{
-							teams.map(({ id, logo, name }, index) => (
-								<>
-									<li class='mx-2'>
-										<a
-											class='group transition hidden md:block'
-											href={`/team/${id}`}
-											title={name}
-											rel={Astro.url.pathname !== `/team/${id}` && 'preload'}
-										>
-											<img
-												class='h-9 w-9 lg:h-12 lg:w-12 aspect-square'
-												src={logo}
-												alt={`Escudo del equipo ${name}`}
-												width='48'
-												height='48'
-												decoding='async'
-												fetchpriority='high'
-											/>
-										</a>
-									</li>
-								</>
-							))
+							teams &&
+								teams.map(({ id, logo, name }, index) => (
+									<>
+										<li class='mx-2'>
+											<a
+												class='group transition hidden md:block'
+												href={`/team/${id}`}
+												title={name}
+												rel={Astro.url.pathname !== `/team/${id}` && 'preload'}
+											>
+												<img
+													class='h-9 w-9 lg:h-12 lg:w-12 aspect-square'
+													src={logo}
+													alt={`Escudo del equipo ${name}`}
+													width='48'
+													height='48'
+													decoding='async'
+													fetchpriority='high'
+												/>
+											</a>
+										</li>
+									</>
+								))
 						}
 					</ul>
 				</div>
