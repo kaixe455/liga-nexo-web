@@ -67,15 +67,16 @@ const STATS_MAPPING = {
 			}
 			<div class='flex flex-row gap-2'>
 				{
-					championsPlayed.map((champ) => (
-						<img
-							class='w-[50px] h-full aspect-auto'
-							src={`/champions/${champ}.png`}
-							alt={name}
-							decoding='async'
-							fetchpriority='high'
-						/>
-					))
+					!stats.message &&
+						championsPlayed.map((champ) => (
+							<img
+								class='w-[50px] h-full aspect-auto'
+								src={`/champions/${champ}.png`}
+								alt={name}
+								decoding='async'
+								fetchpriority='high'
+							/>
+						))
 				}
 			</div>
 		</div>
