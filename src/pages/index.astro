@@ -29,6 +29,7 @@ const assistsPlayer = await getBestAssistsPlayer()
 							<BestPlayerCard
 								smallerBox
 								teamName={kdaPlayer.team.name}
+								teamId={kdaPlayer.team.id}
 								teamImage={kdaPlayer.team.logo}
 								playerName={kdaPlayer.nickname}
 								champion={`champions/${kdaPlayer.championPlayed}.png`}
@@ -42,6 +43,7 @@ const assistsPlayer = await getBestAssistsPlayer()
 							<BestPlayerCard
 								smallerBox
 								teamName={killsPlayer.team.name}
+								teamId={killsPlayer.team.id}
 								teamImage={killsPlayer.team.logo}
 								playerName={killsPlayer.nickname}
 								champion={`champions/${killsPlayer.championPlayed}.png`}
@@ -55,6 +57,7 @@ const assistsPlayer = await getBestAssistsPlayer()
 							<BestPlayerCard
 								smallerBox
 								teamName={assistsPlayer.team.name}
+								teamId={assistsPlayer.team.id}
 								teamImage={assistsPlayer.team.logo}
 								playerName={assistsPlayer.nickname}
 								champion={`champions/${assistsPlayer.championPlayed}.png`}

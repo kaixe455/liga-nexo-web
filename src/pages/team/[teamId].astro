@@ -5,13 +5,10 @@ import TeamsSelector from '@components/TeamsSelector.astro'
 import { getAllTeams } from '@services/teams.js'
 import { getPlayersForTeam } from '@services/players.js'
 import TeamStadistics from '@components/TeamStadistics.astro'
+import PlayerCard from '@components/PlayerCard.astro'
 const { id, name, logo, color1 } = Astro.props
 const players = await getPlayersForTeam(id)
-// const playerSupport = await players.filter((player) => player.role === 'Support')
-// const playerAdc = await players.filter((player) => player.role === 'Bot')
-// const playerMid = players.filter((player) => player.role === 'Mid')
-// const playerTop = players.filter((player) => player.role === 'Top')
-// const playerJungler = players.filter((player) => player.role === 'Jungler')
+const playersWithStats = players.filter((player) => player.role !== 'Coach')
 const coaches = players.filter((player) => player.role === 'Coach')
 const coach = coaches[0]
 export async function getStaticPaths() {
@@ -63,7 +60,7 @@ const gradient = `bg-${id}`
 										fetchpriority='high'
 									/>
 
-									<div class='bg-gradient-to-tr from-[#ffffff] via-[#ffffff] to-[#cd55002a] shadow-xl rounded-xl p-2'>
+									<div class='bg-gradient-to-tr from-[#ffffff] via-[#ffffff] to-[#cd55002a] shadow-xl rounded-xl p-4'>
 										<h3 class='text-black font-black text-2xl'>
 											{coach.name} "{coach.nickname}"
 										</h3>
@@ -77,9 +74,11 @@ const gradient = `bg-${id}`
 					}
 				</section>
 
-				<!-- <TeamPagePlayers
-					players={[...playerEleven, ...goalkeepers, ...defenses, ...medium, ...forward]}
-				/> -->
+				<section>
+					<div class='grid grid-cols-12 gap-4 w-full justify-center'>
+						{playersWithStats.map((player) => <PlayerCard {...player} />)}
+					</div>
+				</section>
 
 				<div
 					class={'-z-10 absolute inset-0 opacity-5 bg-center bg-[size:250%] transition bg-inherit'}
