@@ -127,6 +127,12 @@ app.get('/players/:teamId', (ctx) => {
 	return foundPlayers ? ctx.json(foundPlayers) : ctx.json({ message: 'Players not found for team' }, 404)
 })
 
+app.get('/playersStats/:nickname', (ctx) => {
+	const nickname = ctx.req.param('nickname')
+	const foundPlayersStats = playersStats.find((player) => player.playerId === nickname)
+	return foundPlayersStats ? ctx.json(foundPlayersStats) : ctx.json({ message: 'Player Stats not found for team' }, 404)
+})
+
 app.get('/static/*', serveStatic({ root: './' }))
 
 app.notFound((c) => {
