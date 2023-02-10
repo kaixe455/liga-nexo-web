@@ -1,0 +1,83 @@
+---
+import { getStatsByNickname } from '@services/stats.js'
+const { name, nickname, role } = Astro.props
+const stats = await getStatsByNickname(nickname)
+console.log(stats)
+const { playerId, damagePerMinute, damage, gold, cs, deaths, championsPlayed, ...restOfStats } =
+	stats
+const STATS_MAPPING = {
+	gamesPlayed: { name: 'Partidas jugadas', shortName: 'VLC' },
+	wins: { name: 'Victorias' },
+	losses: { name: 'Derrotas' },
+	kills: { name: 'Asesinatos' },
+	assists: { name: 'Asistencias' },
+	kda: { name: 'KDA' },
+	csPerMinute: { name: 'CS/Min' },
+	goldPerMinute: { name: 'GOLD/Min' },
+	killParticipation: { name: 'Participación' },
+	championsPlayed: { name: 'Campeones jugados' },
+	winRate: { name: 'Win Rate' },
+	deaths: { name: 'Muertes' },
+	cs: { name: 'Minions' },
+	gold: { name: 'Oro' },
+	damage: { name: 'Daño' },
+	damagePerMinute: { name: 'CS/Min' },
+	playerId: { name: 'Nickname' }
+}
+---
+
+<div
+	class='xl:col-span-4 md:col-span-6 xs:col-span-12 flex flex-col justify-center group overflow-hidden'
+>
+	<div class='text-center flex items-center flex-row'>
+		{
+			!stats.message && (
+				<div class='group-hover:scale-125 transition duration-300 overflow-hidden'>
+					<img
+						class='w-[250px] h-full aspect-auto rounded-l-xl group-hover:rounded-l-xl'
+						src={`/champions/profile/${championsPlayed[0]}_0.jpg`}
+						alt={name}
+						decoding='async'
+						fetchpriority='high'
+					/>
+				</div>
+			)
+		}
+
+		<div
+			class='bg-gradient-to-tr from-[#ffffff] via-[#ffffff] to-[#cd55002a] shadow-xl rounded-r-xl group-hover:rounded-r-none p-2 h-full z-20'
+		>
+			<h3 class='text-black font-black text-xl'>
+				{nickname}
+				<span class='font-body uppercase rounded-full text-nexo font-semibold'>{role}</span>
+			</h3>
+			<h4 class='text-black font-black'>
+				{name}
+			</h4>
+			{
+				!stats.message &&
+					Object.entries(restOfStats).map(([key, value]) => (
+						<div>
+							<strong class='font-bold text-xl'>{value}</strong>
+							<span title={STATS_MAPPING[key].name} class='font-light'>
+								{STATS_MAPPING[key].name}
+							</span>
+						</div>
+					))
+			}
+			<div class='flex flex-row gap-2'>
+				{
+					championsPlayed.map((champ) => (
+						<img
+							class='w-[50px] h-full aspect-auto'
+							src={`/champions/${champ}.png`}
+							alt={name}
+							decoding='async'
+							fetchpriority='high'
+						/>
+					))
+				}
+			</div>
+		</div>
+	</div>
+</div>
