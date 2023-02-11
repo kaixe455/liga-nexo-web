@@ -24,7 +24,7 @@ const gradient = `bg-${id}`
 ---
 
 <Layout title={name}>
-	<section class='bg-principal py-32 sm:px-2'>
+	<section class='bg-violet-300 py-32 sm:px-2'>
 		<Container>
 			<div
 				class={`relative py-10 px-2 md:px-20 md:py-10 shadow-xl sm:rounded -mt-10 z-10 mb-40 ${gradient}`}
@@ -75,7 +75,7 @@ const gradient = `bg-${id}`
 				</section>
 
 				<section>
-					<div class='grid grid-cols-12 gap-4 w-full justify-center'>
+					<div class='grid sm:grid-cols-12 gap-4 w-full justify-center xs:grid-cols-1'>
 						{playersWithStats.map((player) => <PlayerCard {...player} />)}
 					</div>
 				</section>
