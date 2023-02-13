@@ -2,6 +2,8 @@
 import { getLeaderboardByTeamId } from '@services/leaderboard.js'
 const { teamId } = Astro.props
 const { rank, playedMatches, points, results } = await getLeaderboardByTeamId(teamId)
+const victories = results.split('-')[0].trim()
+const losses = results.split('-')[2].trim()
 const stats = [
 	{
 		title: 'Posición',
@@ -9,11 +11,11 @@ const stats = [
 	},
 	{
 		title: 'Victorias',
-		value: results
+		value: victories
 	},
 	{
 		title: 'Derrotas',
-		value: results
+		value: losses
 	},
 	{
 		title: 'Puntos',
