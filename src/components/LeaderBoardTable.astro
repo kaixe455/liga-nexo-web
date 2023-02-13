@@ -20,7 +20,7 @@ const leaderboard = await getLeaderboard()
 					const { playedMatches, points, rank, results, team } = info
 					const { name, id, logo } = team
 					return (
-						<tr class={'odd:bg-white even:bg-slate-100 border-b text-base hover:bg-slate-300'}>
+						<tr class={'odd:bg-white even:bg-slate-100 border-b text-base hover:bg-violet-200'}>
 							<th
 								scope='row'
 								class='text-center px-3 py-4 font-black text-black whitespace-nowrap relative'
@@ -29,7 +29,7 @@ const leaderboard = await getLeaderboard()
 							</th>
 							<td class='px-6 py-4 font-black text-center'>
 								<a
-									class='flex items-center gap-x-4 transition hover:opacity-75'
+									class='flex items-center gap-x-4 transition hover:text-nexo'
 									href={`/team/${id}`}
 									rel='preload'
 								>
