@@ -1,8 +1,8 @@
 [
   {
     "rank": "1",
-    "playedMatches": "4",
-    "results": "4 - 0 - 0",
+    "playedMatches": "5",
+    "results": "4 - 0 - 1",
     "points": "12",
     "team": {
       "name": "Oxygen Valiants",
@@ -14,8 +14,21 @@
   },
   {
     "rank": "2",
-    "playedMatches": "4",
-    "results": "3 - 0 - 1",
+    "playedMatches": "5",
+    "results": "4 - 0 - 1",
+    "points": "12",
+    "team": {
+      "name": "Kawaii Kiwis",
+      "id": "kawaii-kiwis",
+      "color1": "#ff4f74",
+      "color2": "#00ff00",
+      "logo": "/logos/teams/kawaii-kiwis.svg"
+    }
+  },
+  {
+    "rank": "3",
+    "playedMatches": "5",
+    "results": "3 - 0 - 2",
     "points": "9",
     "team": {
       "name": "Magna Esports",
@@ -26,23 +39,10 @@
     }
   },
   {
-    "rank": "3",
-    "playedMatches": "4",
-    "results": "3 - 0 - 1",
-    "points": "9",
-    "team": {
-      "name": "Kawaii Kiwis",
-      "id": "kawaii-kiwis",
-      "color1": "#ff4f74",
-      "color2": "#00ff00",
-      "logo": "/logos/teams/kawaii-kiwis.svg"
-    }
-  },
-  {
     "rank": "4",
-    "playedMatches": "4",
-    "results": "2 - 0 - 2",
-    "points": "6",
+    "playedMatches": "5",
+    "results": "3 - 0 - 2",
+    "points": "9",
     "team": {
       "name": "Taurus Esports",
       "id": "taurus-esports",
@@ -53,9 +53,9 @@
   },
   {
     "rank": "5",
-    "playedMatches": "4",
-    "results": "2 - 0 - 2",
-    "points": "6",
+    "playedMatches": "5",
+    "results": "3 - 0 - 2",
+    "points": "9",
     "team": {
       "name": "Bis Esports",
       "id": "bis-esports",
@@ -66,8 +66,21 @@
   },
   {
     "rank": "6",
-    "playedMatches": "4",
-    "results": "2 - 0 - 2",
+    "playedMatches": "5",
+    "results": "3 - 0 - 2",
+    "points": "9",
+    "team": {
+      "name": "Stormbringers",
+      "id": "stormbringers",
+      "color1": "#c63552",
+      "color2": "#0078a5",
+      "logo": "/logos/teams/stormbringers.svg"
+    }
+  },
+  {
+    "rank": "7",
+    "playedMatches": "5",
+    "results": "2 - 0 - 3",
     "points": "6",
     "team": {
       "name": "ECORP",
@@ -78,22 +91,9 @@
     }
   },
   {
-    "rank": "7",
-    "playedMatches": "4",
-    "results": "2 - 0 - 2",
-    "points": "6",
-    "team": {
-      "name": "Stormbringers",
-      "id": "stormbringers",
-      "color1": "#c63552",
-      "color2": "#0078a5",
-      "logo": "/logos/teams/stormbringers.svg"
-    }
-  },
-  {
     "rank": "8",
-    "playedMatches": "4",
-    "results": "1 - 0 - 3",
+    "playedMatches": "5",
+    "results": "1 - 0 - 4",
     "points": "3",
     "team": {
       "name": "TDC Esports",
@@ -105,8 +105,21 @@
   },
   {
     "rank": "9",
-    "playedMatches": "4",
-    "results": "1 - 0 - 3",
+    "playedMatches": "5",
+    "results": "1 - 0 - 4",
+    "points": "3",
+    "team": {
+      "name": "Phlox Gaming",
+      "id": "phlox-gaming",
+      "color1": "#180015",
+      "color2": "#ebf2f7",
+      "logo": "/logos/teams/phlox-gaming.svg"
+    }
+  },
+  {
+    "rank": "10",
+    "playedMatches": "5",
+    "results": "1 - 0 - 4",
     "points": "3",
     "team": {
       "name": "UCAM Tokiers Academy",
@@ -114,19 +127,6 @@
       "color1": "#004379",
       "color2": "#eca900",
       "logo": "/logos/teams/ucam-tokiers-academy.svg"
-    }
-  },
-  {
-    "rank": "10",
-    "playedMatches": "4",
-    "results": "0 - 0 - 4",
-    "points": "0",
-    "team": {
-      "name": "Phlox Gaming",
-      "id": "phlox-gaming",
-      "color1": "#180015",
-      "color2": "#ebf2f7",
-      "logo": "/logos/teams/phlox-gaming.svg"
     }
   }
 ]

@@ -180,33 +180,33 @@
       "team1": "Stormbringers",
       "team2": "ECORP LOL",
       "date": "13-02-2023 - 17:00",
-      "score1": 0,
+      "score1": 1,
       "score2": 0,
-      "completed": false
+      "completed": true
     },
     {
       "team1": "Magna",
       "team2": "Phlox Gaming",
       "date": "13-02-2023 - 18:00",
       "score1": 0,
-      "score2": 0,
-      "completed": false
+      "score2": 1,
+      "completed": true
     },
     {
       "team1": "TDC Esports LOL",
       "team2": "TAURUS ESPORTS LOL",
       "date": "13-02-2023 - 19:00",
       "score1": 0,
-      "score2": 0,
-      "completed": false
+      "score2": 1,
+      "completed": true
     },
     {
       "team1": "Kawaii Kiwis",
       "team2": "UCAM Tokiers Academy LoL",
       "date": "13-02-2023 - 20:00",
-      "score1": 0,
+      "score1": 1,
       "score2": 0,
-      "completed": false
+      "completed": true
     }
   ],
   [
