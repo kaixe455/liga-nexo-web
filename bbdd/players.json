@@ -25,6 +25,14 @@
   },
   {
     "teamId": "bis-esports",
+    "role": "Mid",
+    "nickname": "Nox",
+    "name": "Daniel Müller",
+    "twitch": "",
+    "twitter": "https://twitter.com/NoxLoL1"
+  },
+  {
+    "teamId": "bis-esports",
     "role": "Bot",
     "nickname": "Yoangi",
     "name": "Joaquín Orellana Rey",
