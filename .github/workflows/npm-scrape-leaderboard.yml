@@ -47,5 +47,4 @@ jobs:
           reviewers: kaixe455
           team-reviewers: |
             owners
-            maintainers
           draft: false
