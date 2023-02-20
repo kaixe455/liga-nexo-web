@@ -45,6 +45,4 @@ jobs:
             automated pr
           assignees: kaixe455
           reviewers: kaixe455
-          team-reviewers: |
-            owners
           draft: false
