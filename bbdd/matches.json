@@ -230,9 +230,9 @@
       "team1": "UCAM Tokiers Academy LoL",
       "team2": "TDC Esports",
       "date": "20-02-2023 - 18:00",
-      "score1": 0,
+      "score1": 1,
       "score2": 0,
-      "completed": false
+      "completed": true
     },
     {
       "team1": "TAURUS ESPORTS LOL",
