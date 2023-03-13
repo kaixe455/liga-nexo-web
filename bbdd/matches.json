@@ -341,32 +341,32 @@
       "team2": "Bis Unlock",
       "date": "13-03-2023 - 16:00",
       "score1": 0,
-      "score2": 0,
-      "completed": false
+      "score2": 1,
+      "completed": true
     },
     {
       "team1": "ECORP LOL",
       "team2": "TAURUS ESPORTS LOL",
       "date": "13-03-2023 - 17:00",
-      "score1": 0,
+      "score1": 1,
       "score2": 0,
-      "completed": false
+      "completed": true
     },
     {
       "team1": "Phlox Gaming",
       "team2": "UCAM Tokiers Academy LoL",
       "date": "13-03-2023 - 18:00",
-      "score1": 0,
+      "score1": 1,
       "score2": 0,
-      "completed": false
+      "completed": true
     },
     {
       "team1": "Oxygen Valiants",
       "team2": "TDC Esports",
       "date": "13-03-2023 - 19:00",
-      "score1": 0,
+      "score1": 1,
       "score2": 0,
-      "completed": false
+      "completed": true
     },
     {
       "team1": "Stormbringers",
