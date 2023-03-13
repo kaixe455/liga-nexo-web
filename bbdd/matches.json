@@ -372,9 +372,9 @@
       "team1": "Stormbringers",
       "team2": "Kawaii Kiwis",
       "date": "13-03-2023 - 20:00",
-      "score1": 0,
+      "score1": 1,
       "score2": 0,
-      "completed": false
+      "completed": true
     }
   ]
 ]
