@@ -1,8 +1,8 @@
 [
   {
     "rank": "1",
-    "playedMatches": "8",
-    "results": "7 - 0 - 1",
+    "playedMatches": "9",
+    "results": "7 - 0 - 2",
     "points": "21",
     "team": {
       "name": "Kawaii Kiwis",
@@ -14,9 +14,9 @@
   },
   {
     "rank": "2",
-    "playedMatches": "8",
-    "results": "6 - 0 - 2",
-    "points": "18",
+    "playedMatches": "9",
+    "results": "7 - 0 - 2",
+    "points": "21",
     "team": {
       "name": "Oxygen Valiants",
       "id": "oxygen-valiants",
@@ -27,9 +27,9 @@
   },
   {
     "rank": "3",
-    "playedMatches": "8",
-    "results": "6 - 0 - 2",
-    "points": "18",
+    "playedMatches": "9",
+    "results": "7 - 0 - 2",
+    "points": "21",
     "team": {
       "name": "Stormbringers",
       "id": "stormbringers",
@@ -40,9 +40,9 @@
   },
   {
     "rank": "4",
-    "playedMatches": "8",
-    "results": "5 - 0 - 3",
-    "points": "15",
+    "playedMatches": "9",
+    "results": "6 - 0 - 3",
+    "points": "18",
     "team": {
       "name": "Bis Esports",
       "id": "bis-esports",
@@ -53,9 +53,9 @@
   },
   {
     "rank": "5",
-    "playedMatches": "8",
-    "results": "4 - 0 - 4",
-    "points": "12",
+    "playedMatches": "9",
+    "results": "5 - 0 - 4",
+    "points": "15",
     "team": {
       "name": "ECORP",
       "id": "ecorp",
@@ -66,8 +66,8 @@
   },
   {
     "rank": "6",
-    "playedMatches": "8",
-    "results": "4 - 0 - 4",
+    "playedMatches": "9",
+    "results": "4 - 0 - 5",
     "points": "12",
     "team": {
       "name": "Magna Esports",
@@ -79,8 +79,21 @@
   },
   {
     "rank": "7",
-    "playedMatches": "8",
-    "results": "3 - 0 - 5",
+    "playedMatches": "9",
+    "results": "3 - 0 - 6",
+    "points": "9",
+    "team": {
+      "name": "Phlox Gaming",
+      "id": "phlox-gaming",
+      "color1": "#180015",
+      "color2": "#ebf2f7",
+      "logo": "/logos/teams/phlox-gaming.svg"
+    }
+  },
+  {
+    "rank": "8",
+    "playedMatches": "9",
+    "results": "3 - 0 - 6",
     "points": "9",
     "team": {
       "name": "Taurus Esports",
@@ -91,22 +104,9 @@
     }
   },
   {
-    "rank": "8",
-    "playedMatches": "8",
-    "results": "2 - 0 - 6",
-    "points": "6",
-    "team": {
-      "name": "Phlox Gaming",
-      "id": "phlox-gaming",
-      "color1": "#180015",
-      "color2": "#ebf2f7",
-      "logo": "/logos/teams/phlox-gaming.svg"
-    }
-  },
-  {
     "rank": "9",
-    "playedMatches": "8",
-    "results": "2 - 0 - 6",
+    "playedMatches": "9",
+    "results": "2 - 0 - 7",
     "points": "6",
     "team": {
       "name": "UCAM Tokiers Academy",
@@ -118,8 +118,8 @@
   },
   {
     "rank": "10",
-    "playedMatches": "8",
-    "results": "1 - 0 - 7",
+    "playedMatches": "9",
+    "results": "1 - 0 - 8",
     "points": "3",
     "team": {
       "name": "TDC Esports",
