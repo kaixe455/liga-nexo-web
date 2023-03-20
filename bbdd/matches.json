@@ -1,7 +1,7 @@
 [
   [
     {
-      "team1": "Magna",
+      "team1": "Magna Esports",
       "team2": "UCAM Tokiers Academy LoL",
       "date": "16-01-2023 - 16:00",
       "score1": 1,
@@ -76,7 +76,7 @@
     },
     {
       "team1": "Oxygen Valiants",
-      "team2": "Magna",
+      "team2": "Magna Esports",
       "date": "23-01-2023 - 20:00",
       "score1": 1,
       "score2": 0,
@@ -85,7 +85,7 @@
   ],
   [
     {
-      "team1": "Magna",
+      "team1": "Magna Esports",
       "team2": "TAURUS ESPORTS LOL",
       "date": "30-01-2023 - 16:00",
       "score1": 1,
@@ -128,7 +128,7 @@
   [
     {
       "team1": "Stormbringers",
-      "team2": "Magna",
+      "team2": "Magna Esports",
       "date": "06-02-2023 - 16:00",
       "score1": 0,
       "score2": 1,
@@ -185,7 +185,7 @@
       "completed": true
     },
     {
-      "team1": "Magna",
+      "team1": "Magna Esports",
       "team2": "Phlox Gaming",
       "date": "13-02-2023 - 18:00",
       "score1": 0,
@@ -212,7 +212,7 @@
   [
     {
       "team1": "Kawaii Kiwis",
-      "team2": "Magna",
+      "team2": "Magna Esports",
       "date": "20-02-2023 - 16:00",
       "score1": 1,
       "score2": 0,
@@ -270,7 +270,7 @@
     },
     {
       "team1": "TDC Esports",
-      "team2": "Magna",
+      "team2": "Magna Esports",
       "date": "27-02-2023 - 18:00",
       "score1": 0,
       "score2": 1,
@@ -303,7 +303,7 @@
       "completed": true
     },
     {
-      "team1": "Magna",
+      "team1": "Magna Esports",
       "team2": "ECORP LOL",
       "date": "06-03-2023 - 17:00",
       "score1": 0,
@@ -337,7 +337,7 @@
   ],
   [
     {
-      "team1": "Magna",
+      "team1": "Magna Esports",
       "team2": "Bis Unlock",
       "date": "13-03-2023 - 16:00",
       "score1": 0,
