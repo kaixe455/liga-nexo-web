@@ -10,7 +10,7 @@ closestMatch.team2 = team2
 ---
 
 <div class='relative overflow-x-auto shadow-md sm:rounded-lg'>
-	<table class='w-full text-xs text-left text-black'>
+	{!team1.message && !team2.message && <table class='w-full text-xs text-left text-black'>
 		<thead class='font-black text-white uppercase bg-nexo'>
 			<tr>
 				<th
@@ -56,4 +56,5 @@ closestMatch.team2 = team2
 			/>
 		</tbody>
 	</table>
+	}
 </div>
