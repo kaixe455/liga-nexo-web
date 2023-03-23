@@ -13,8 +13,20 @@ export const getAllMatches = async () => {
 
 export const getClosestMatch = async () => {
 	const response = await fetch(`${apiURL}/allMatches`)
+	let closest =
+	{
+		team1: '',
+		team2: '',
+		date: '',
+		score1: 0,
+		score2: 0,
+		completed: true
+	}
+
 	const matches = await response.json()
 	const notPlayedMatches = matches.filter((match) => match.completed === false)
-	const closest = findClosest(notPlayedMatches, ({ date }) => processDateString(date))
+	if (notPlayedMatches.length > 0) {
+		closest = findClosest(notPlayedMatches, ({ date }) => processDateString(date))
+	}
 	return closest
 }
