@@ -14,7 +14,7 @@
     "gold": "12.3k",
     "goldPerMinute": 367,
     "damage": null,
-    "damagePerMinute": 460,
+    "damagePerMinute": 460.5,
     "killParticipation": "49.6%",
     "championsPlayed": [
       "Jax",
@@ -37,7 +37,7 @@
     "gold": "8k",
     "goldPerMinute": 238,
     "damage": null,
-    "damagePerMinute": 190,
+    "damagePerMinute": 189.8,
     "killParticipation": "69.4%",
     "championsPlayed": [
       "Nautilus",
@@ -60,7 +60,7 @@
     "gold": "11k",
     "goldPerMinute": 328,
     "damage": null,
-    "damagePerMinute": 460,
+    "damagePerMinute": 459.5,
     "killParticipation": "62.8%",
     "championsPlayed": [
       "Maokai",
@@ -83,7 +83,7 @@
     "gold": "14.7k",
     "goldPerMinute": 440,
     "damage": null,
-    "damagePerMinute": 641,
+    "damagePerMinute": 640.7,
     "killParticipation": "64.5%",
     "championsPlayed": [
       "Caitlyn",
@@ -106,7 +106,7 @@
     "gold": "13.2k",
     "goldPerMinute": 426,
     "damage": null,
-    "damagePerMinute": 676,
+    "damagePerMinute": 676.3,
     "killParticipation": "75%",
     "championsPlayed": [
       "Taliyah",
@@ -129,7 +129,7 @@
     "gold": "13.6k",
     "goldPerMinute": 374,
     "damage": null,
-    "damagePerMinute": 472,
+    "damagePerMinute": 472.5,
     "killParticipation": "53.1%",
     "championsPlayed": [
       "Kassadin",
@@ -152,7 +152,7 @@
     "gold": "8.5k",
     "goldPerMinute": 244,
     "damage": null,
-    "damagePerMinute": 219,
+    "damagePerMinute": 219.2,
     "killParticipation": "73.6%",
     "championsPlayed": [
       "Amumu",
@@ -175,7 +175,7 @@
     "gold": "12.7k",
     "goldPerMinute": 365,
     "damage": null,
-    "damagePerMinute": 436,
+    "damagePerMinute": 435.5,
     "killParticipation": "60.4%",
     "championsPlayed": [
       "Ornn",
@@ -198,7 +198,7 @@
     "gold": "11.4k",
     "goldPerMinute": 328,
     "damage": null,
-    "damagePerMinute": 341,
+    "damagePerMinute": 341.2,
     "killParticipation": "59.4%",
     "championsPlayed": [
       "Viego",
@@ -221,7 +221,7 @@
     "gold": "13.6k",
     "goldPerMinute": 394,
     "damage": null,
-    "damagePerMinute": 614,
+    "damagePerMinute": 614.3,
     "killParticipation": "63.2%",
     "championsPlayed": [
       "Ahri",
@@ -244,7 +244,7 @@
     "gold": "14.9k",
     "goldPerMinute": 429,
     "damage": null,
-    "damagePerMinute": 626,
+    "damagePerMinute": 625.8,
     "killParticipation": "67.9%",
     "championsPlayed": [
       "Xayah",
@@ -267,7 +267,7 @@
     "gold": "11.4k",
     "goldPerMinute": 362,
     "damage": null,
-    "damagePerMinute": 393,
+    "damagePerMinute": 392.7,
     "killParticipation": "70.4%",
     "championsPlayed": [
       "Xin Zhao",
@@ -290,7 +290,7 @@
     "gold": "14.1k",
     "goldPerMinute": 448,
     "damage": null,
-    "damagePerMinute": 637,
+    "damagePerMinute": 637.3,
     "killParticipation": "59.6%",
     "championsPlayed": [
       "Zeri",
@@ -313,7 +313,7 @@
     "gold": "13.4k",
     "goldPerMinute": 428,
     "damage": null,
-    "damagePerMinute": 664,
+    "damagePerMinute": 663.5,
     "killParticipation": "70.4%",
     "championsPlayed": [
       "Taliyah",
@@ -336,7 +336,7 @@
     "gold": "12.2k",
     "goldPerMinute": 387,
     "damage": null,
-    "damagePerMinute": 505,
+    "damagePerMinute": 505.1,
     "killParticipation": "43.8%",
     "championsPlayed": [
       "Gnar",
@@ -359,7 +359,7 @@
     "gold": "7.8k",
     "goldPerMinute": 253,
     "damage": null,
-    "damagePerMinute": 171,
+    "damagePerMinute": 170.8,
     "killParticipation": "67.6%",
     "championsPlayed": [
       "Lulu",
@@ -382,7 +382,7 @@
     "gold": "7.9k",
     "goldPerMinute": 246,
     "damage": null,
-    "damagePerMinute": 175,
+    "damagePerMinute": 175.4,
     "killParticipation": "78.3%",
     "championsPlayed": [
       "Lulu",
@@ -405,7 +405,7 @@
     "gold": "12.8k",
     "goldPerMinute": 392,
     "damage": null,
-    "damagePerMinute": 494,
+    "damagePerMinute": 494.5,
     "killParticipation": "65.2%",
     "championsPlayed": [
       "Ashe",
@@ -428,7 +428,7 @@
     "gold": "10.7k",
     "goldPerMinute": 328,
     "damage": null,
-    "damagePerMinute": 443,
+    "damagePerMinute": 442.6,
     "killParticipation": "66.3%",
     "championsPlayed": [
       "Wukong",
@@ -451,7 +451,7 @@
     "gold": "13.7k",
     "goldPerMinute": 418,
     "damage": null,
-    "damagePerMinute": 543,
+    "damagePerMinute": 543.5,
     "killParticipation": "54.3%",
     "championsPlayed": [
       "Fiora",
@@ -474,7 +474,7 @@
     "gold": "11.2k",
     "goldPerMinute": 342,
     "damage": null,
-    "damagePerMinute": 329,
+    "damagePerMinute": 329.3,
     "killParticipation": "46.7%",
     "championsPlayed": [
       "Galio",
@@ -520,7 +520,7 @@
     "gold": "7.7k",
     "goldPerMinute": 255,
     "damage": null,
-    "damagePerMinute": 109,
+    "damagePerMinute": 109.2,
     "killParticipation": "91.7%",
     "championsPlayed": [
       "Nami"
@@ -541,7 +541,7 @@
     "gold": "13.9k",
     "goldPerMinute": 438,
     "damage": null,
-    "damagePerMinute": 615,
+    "damagePerMinute": 614.9,
     "killParticipation": "59.3%",
     "championsPlayed": [
       "Varus",
@@ -564,7 +564,7 @@
     "gold": "8.3k",
     "goldPerMinute": 262,
     "damage": null,
-    "damagePerMinute": 199,
+    "damagePerMinute": 198.9,
     "killParticipation": "64.3%",
     "championsPlayed": [
       "Rakan",
@@ -610,7 +610,7 @@
     "gold": "11.3k",
     "goldPerMinute": 362,
     "damage": null,
-    "damagePerMinute": 371,
+    "damagePerMinute": 371.3,
     "killParticipation": "68.1%",
     "championsPlayed": [
       "Vi",
@@ -656,7 +656,7 @@
     "gold": "13.1k",
     "goldPerMinute": 400,
     "damage": null,
-    "damagePerMinute": 455,
+    "damagePerMinute": 455.5,
     "killParticipation": "48.1%",
     "championsPlayed": [
       "Ryze",
@@ -679,7 +679,7 @@
     "gold": "11.9k",
     "goldPerMinute": 327,
     "damage": null,
-    "damagePerMinute": 492,
+    "damagePerMinute": 491.7,
     "killParticipation": "81.3%",
     "championsPlayed": [
       "Maokai"
@@ -700,7 +700,7 @@
     "gold": "7.3k",
     "goldPerMinute": 226,
     "damage": null,
-    "damagePerMinute": 172,
+    "damagePerMinute": 171.7,
     "killParticipation": "68.9%",
     "championsPlayed": [
       "Lulu",
@@ -723,7 +723,7 @@
     "gold": "13.1k",
     "goldPerMinute": 409,
     "damage": null,
-    "damagePerMinute": 613,
+    "damagePerMinute": 612.9,
     "killParticipation": "52.4%",
     "championsPlayed": [
       "Gnar",
@@ -746,7 +746,7 @@
     "gold": "9.2k",
     "goldPerMinute": 287,
     "damage": null,
-    "damagePerMinute": 195,
+    "damagePerMinute": 195.3,
     "killParticipation": "65%",
     "championsPlayed": [
       "Jarvan IV",
@@ -769,7 +769,7 @@
     "gold": "12.8k",
     "goldPerMinute": 401,
     "damage": null,
-    "damagePerMinute": 527,
+    "damagePerMinute": 527.2,
     "killParticipation": "64.8%",
     "championsPlayed": [
       "Sivir",
@@ -792,7 +792,7 @@
     "gold": "12.1k",
     "goldPerMinute": 371,
     "damage": null,
-    "damagePerMinute": 599,
+    "damagePerMinute": 599.4,
     "killParticipation": "57%",
     "championsPlayed": [
       "Viktor",
@@ -815,7 +815,7 @@
     "gold": "12.3k",
     "goldPerMinute": 399,
     "damage": null,
-    "damagePerMinute": 400,
+    "damagePerMinute": 400.2,
     "killParticipation": "58.8%",
     "championsPlayed": [
       "Ryze",
@@ -837,7 +837,7 @@
     "gold": "13.8k",
     "goldPerMinute": 424,
     "damage": null,
-    "damagePerMinute": 619,
+    "damagePerMinute": 619.2,
     "killParticipation": "80%",
     "championsPlayed": [
       "Varus"
@@ -858,7 +858,7 @@
     "gold": "12.2k",
     "goldPerMinute": 392,
     "damage": null,
-    "damagePerMinute": 379,
+    "damagePerMinute": 379.4,
     "killParticipation": "68.5%",
     "championsPlayed": [
       "Sejuani",
@@ -881,7 +881,7 @@
     "gold": "8.2k",
     "goldPerMinute": 264,
     "damage": null,
-    "damagePerMinute": 290,
+    "damagePerMinute": 289.9,
     "killParticipation": "62.4%",
     "championsPlayed": [
       "Yuumi",
@@ -904,7 +904,7 @@
     "gold": "13.4k",
     "goldPerMinute": 433,
     "damage": null,
-    "damagePerMinute": 611,
+    "damagePerMinute": 610.7,
     "killParticipation": "53.9%",
     "championsPlayed": [
       "Irelia",
@@ -927,7 +927,7 @@
     "gold": "12.4k",
     "goldPerMinute": 399,
     "damage": null,
-    "damagePerMinute": 436,
+    "damagePerMinute": 436.2,
     "killParticipation": "47.3%",
     "championsPlayed": [
       "Viktor",
@@ -950,7 +950,7 @@
     "gold": "13.2k",
     "goldPerMinute": 424,
     "damage": null,
-    "damagePerMinute": 575,
+    "damagePerMinute": 575.1,
     "killParticipation": "52.8%",
     "championsPlayed": [
       "Varus",
@@ -973,7 +973,7 @@
     "gold": "13.2k",
     "goldPerMinute": 426,
     "damage": null,
-    "damagePerMinute": 605,
+    "damagePerMinute": 604.5,
     "killParticipation": "73.7%",
     "championsPlayed": [
       "Sivir",
@@ -996,7 +996,7 @@
     "gold": "11.4k",
     "goldPerMinute": 335,
     "damage": null,
-    "damagePerMinute": 325,
+    "damagePerMinute": 325.4,
     "killParticipation": "72.7%",
     "championsPlayed": [
       "Wukong",
@@ -1042,7 +1042,7 @@
     "gold": "8.2k",
     "goldPerMinute": 238,
     "damage": null,
-    "damagePerMinute": 225,
+    "damagePerMinute": 224.9,
     "killParticipation": "68.7%",
     "championsPlayed": [
       "Karma",
@@ -1065,7 +1065,7 @@
     "gold": "13.9k",
     "goldPerMinute": 401,
     "damage": null,
-    "damagePerMinute": 584,
+    "damagePerMinute": 584.1,
     "killParticipation": "64.4%",
     "championsPlayed": [
       "Xayah",
@@ -1088,7 +1088,7 @@
     "gold": "12.3k",
     "goldPerMinute": 374,
     "damage": null,
-    "damagePerMinute": 419,
+    "damagePerMinute": 418.8,
     "killParticipation": "53.4%",
     "championsPlayed": [
       "Azir",
@@ -1111,7 +1111,7 @@
     "gold": "12.4k",
     "goldPerMinute": 344,
     "damage": null,
-    "damagePerMinute": 474,
+    "damagePerMinute": 474.1,
     "killParticipation": "59.5%",
     "championsPlayed": [
       "Taliyah",
@@ -1133,7 +1133,7 @@
     "gold": "8.6k",
     "goldPerMinute": 281,
     "damage": null,
-    "damagePerMinute": 268,
+    "damagePerMinute": 267.7,
     "killParticipation": "35.3%",
     "championsPlayed": [
       "Caitlyn",
@@ -1155,7 +1155,7 @@
     "gold": "12.9k",
     "goldPerMinute": 415,
     "damage": null,
-    "damagePerMinute": 536,
+    "damagePerMinute": 535.6,
     "killParticipation": "80.6%",
     "championsPlayed": [
       "Zeri",
@@ -1178,7 +1178,7 @@
     "gold": "10.3k",
     "goldPerMinute": 331,
     "damage": null,
-    "damagePerMinute": 448,
+    "damagePerMinute": 447.6,
     "killParticipation": "43.3%",
     "championsPlayed": [
       "Syndra",
@@ -1201,7 +1201,7 @@
     "gold": "6.6k",
     "goldPerMinute": 218,
     "damage": null,
-    "damagePerMinute": 190,
+    "damagePerMinute": 189.9,
     "killParticipation": "70.2%",
     "championsPlayed": [
       "Ashe",
@@ -1224,7 +1224,7 @@
     "gold": "9.9k",
     "goldPerMinute": 298,
     "damage": null,
-    "damagePerMinute": 335,
+    "damagePerMinute": 334.9,
     "killParticipation": "64.5%",
     "championsPlayed": [
       "Amumu",
@@ -1247,7 +1247,7 @@
     "gold": "10.9k",
     "goldPerMinute": 316,
     "damage": null,
-    "damagePerMinute": 407,
+    "damagePerMinute": 407.2,
     "killParticipation": "39.6%",
     "championsPlayed": [
       "Poppy",
@@ -1270,7 +1270,7 @@
     "gold": "8.7k",
     "goldPerMinute": 325,
     "damage": null,
-    "damagePerMinute": 310,
+    "damagePerMinute": 309.8,
     "killParticipation": "35.7%",
     "championsPlayed": [
       "Ornn",
@@ -1293,7 +1293,7 @@
     "gold": "5.7k",
     "goldPerMinute": 244,
     "damage": null,
-    "damagePerMinute": 326,
+    "damagePerMinute": 325.9,
     "killParticipation": "60%",
     "championsPlayed": [
       "Wukong"
@@ -1314,7 +1314,7 @@
     "gold": "7.3k",
     "goldPerMinute": 196,
     "damage": null,
-    "damagePerMinute": 289,
+    "damagePerMinute": 289.1,
     "killParticipation": "90%",
     "championsPlayed": [
       "Yuumi"
@@ -1335,7 +1335,7 @@
     "gold": "11.7k",
     "goldPerMinute": 380,
     "damage": null,
-    "damagePerMinute": 346,
+    "damagePerMinute": 345.9,
     "killParticipation": "71.1%",
     "championsPlayed": [
       "Sivir",
@@ -1358,7 +1358,7 @@
     "gold": "6.8k",
     "goldPerMinute": 222,
     "damage": null,
-    "damagePerMinute": 132,
+    "damagePerMinute": 131.6,
     "killParticipation": "74.4%",
     "championsPlayed": [
       "Nautilus",
@@ -1381,7 +1381,7 @@
     "gold": "10.2k",
     "goldPerMinute": 332,
     "damage": null,
-    "damagePerMinute": 343,
+    "damagePerMinute": 342.5,
     "killParticipation": "78.9%",
     "championsPlayed": [
       "Maokai",
@@ -1404,7 +1404,7 @@
     "gold": "11.3k",
     "goldPerMinute": 366,
     "damage": null,
-    "damagePerMinute": 383,
+    "damagePerMinute": 382.8,
     "killParticipation": "62.2%",
     "championsPlayed": [
       "Jayce",
@@ -1427,7 +1427,7 @@
     "gold": "11.5k",
     "goldPerMinute": 374,
     "damage": null,
-    "damagePerMinute": 444,
+    "damagePerMinute": 444.2,
     "killParticipation": "61.1%",
     "championsPlayed": [
       "Gragas",
