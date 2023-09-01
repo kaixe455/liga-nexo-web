@@ -17,6 +17,10 @@ app.get('/', (ctx) => {
 			description: 'Return leaderboard for Liga Nexo'
 		},
 		{
+			endpoint: '/leaderboard/:idTeam',
+			description: 'Return leaderboard for Liga Nexo by team'
+		},
+		{
 			endpoint: '/matches',
 			description: 'Return all matches for the current split in Liga Nexo'
 		},
@@ -35,6 +39,22 @@ app.get('/', (ctx) => {
 		{
 			endpoint: '/bestPlayerKda',
 			description: 'Return best player by KDA'
+		},
+		{
+			endpoint: '/bestPlayerKills',
+			description: 'Return best player by kills'
+		},
+		{
+			endpoint: '/bestPlayerAssists',
+			description: 'Return best player by assists'
+		},
+		{
+			endpoint: '/players/:teamId',
+			description: 'Return players by team'
+		},
+		{
+			endpoint: '/playersStats/:nickname',
+			description: 'Return player stats by nickname'
 		}
 	])
 })
